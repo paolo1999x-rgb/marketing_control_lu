@@ -58,9 +58,14 @@ Reglas de cada secuencia:
 - **Interacción sugerida:** encuesta "¿Lo pruebas solo o en shot?".
 
 ### Sábado 07/11 · Pisco Quebranta vs. Acholado
-- **Objetivo:** comparar las dos uvas o estilos. Quebranta: pisco puro, de una sola uva no aromática. Acholado: mezcla de uvas.
+- **Objetivo:** comparar los dos estilos y romper el mito de que el acholado es de menor calidad.
 - **Productos con stock:** Pisco Viñas de Oro Mosto Verde Acholado Edición Especial 500 ml (12 unidades) · `[PRECIO]`.
-- **Interacción:** quiz "¿Cuál es mejor para tu pisco sour?".
+- **Guion que ya existía (adaptar a story, pantallas cortas):**
+  1. Esto es un Pisco Quebranta y esto es un Pisco Acholado. Los dos son 100% peruanos, pero tienen personalidades totalmente distintas. Y ojo, hay un mito que tenemos que romper.
+  2. El Quebranta es un pisco puro de una sola uva: la uva bandera del Perú, con un sabor intenso y terroso que le da carácter al pisco sour.
+  3. El Acholado nace de la mezcla de varias uvas: por ejemplo, Quebranta con Italia y Torontel, para equilibrar aroma y suavidad.
+  4. El mito: mucha gente cree que el Acholado es de menor calidad o que esconde defectos. Es todo lo contrario: es el arte de combinar uvas para lograr un perfil único.
+  5. El Quebranta es la esencia pura de una uva. El Acholado, la maestría de combinar varias. ¿Tú cuál prefieres? (encuesta)
 - **Nota:** ese día también sale el reel de Juggernaut · Bogle · Phantom (vinos de California). La story no debe repetirlo.
 
 ### Domingo 08/11 · Dato de vino · cómo leer una etiqueta
