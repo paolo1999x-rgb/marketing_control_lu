@@ -29,25 +29,27 @@ Gran Malo es la marca de tequila de Luisito Comunica, y acaba de llegar a Licore
 
 ---
 
-## 2. Viernes 06/11 · Oferta de fin de semana
+## 2. Viernes 06/11 · Recomendación de fin de semana
 
-- **Asunto A:** Tu viernes empieza a las 5 (y el precio también)
-- **Asunto B:** Las 3 botellas de tu previa ya están elegidas
-- **Preheader:** Un tinto con S/ 160 menos, un gin y unas burbujas para el finde.
+- **Asunto A:** Las 3 botellas que no pueden faltar en tu previa este viernes 🍸
+- **Asunto B:** Tu viernes empieza a las 5 (y el precio también)
+- **Preheader:** Descubre los recomendados de la semana en LU para tus reuniones.
 
 **Cuerpo:**
 
-Cierra la laptop: el fin de semana ya empezó.
+Cierra la laptop, que el fin de semana arranca oficialmente.
 
-Para la previa de hoy, la cena o la parrilla del domingo, estas 3 botellas no fallan:
+Si estás organizando la previa de hoy, una cena o la parrilla del domingo, te dejamos 3 etiquetas de nuestro catálogo que nunca fallan para quedar como el mejor anfitrión.
 
-- **Vino Gran Enemigo Agrelo 750 ml:** antes S/ 450 · ahora S/ 290
+Los recomendados de la semana:
+
+- **Whisky Johnnie Walker XR 21 años 750 ml:** S/ 650
 - **Gin Hendrick's 700 ml:** S/ 110
-- **Espumante Chandon Extra Brut 750 ml:** S/ 62
+- **Vino Gran Enemigo Agrelo 750 ml:** antes S/ 450 · ahora S/ 290
 
-Pídelo hoy en la web y prepárate para el finde.
+Haz tu pedido hoy desde la web y recíbelo directamente en tu puerta.
 
-- **CTA:** Ver ofertas en la web
+- **CTA:** Explorar catálogo de fin de semana
 
 ---
 
