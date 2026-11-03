@@ -1,134 +1,73 @@
-# Guiones de stories · Noviembre 2026 · Licorerías Unidas
+# Voz en off · Stories de noviembre 2026 · Licorerías Unidas
 
-Versión corregida con tus comentarios.
-- **[NUEVO]:** guion reescrito.
-- **[AJUSTE]:** el guion de la otra IA se queda, pero le saqué datos inventados.
-- **[OK]:** sin cambios.
+**04/11 · CSI, último día**
+Esa botella que tienes en el carrito desde hace días, esa que siempre dejas para después… Hoy es el último día para llevártela en cuotas sin intereses. A las once y cincuenta y nueve de la noche se acaba. Mañana ya no. Entra al link y llévatela hoy.
 
-**Técnicas de captación aplicadas en los nuevos:**
-1. Corte de patrón en los primeros 2 segundos.
-2. Pregunta o dato que deja algo abierto, y se cierra al final.
-3. Hablar a "tú".
-4. Detalles concretos y sensoriales.
-5. Contraste entre dos cosas.
-6. Microcompromiso (encuesta o pregunta) antes del link.
+**05/11 · Gran Malo**
+Seguro ya lo viste en los videos de Luisito Comunica. Gran Malo, su tequila con tamarindo y un toque de picante, lleva años dando que hablar en México. Lo difícil era conseguirlo acá. Eso ya cambió: Gran Malo ya está en Licorerías Unidas. Link en el perfil.
 
-Nada de urgencia inventada.
+**06/11 · Gran Malo, cómo se toma**
+¿Gran Malo se toma solo o en shot? Bien frío y en shot: primero llega el dulce del tamarindo y el picante aparece después, sin quemar. Una botella está a cien soles y te alcanza para toda la previa. Pídela desde la web.
 
----
+**07/11 · Pisco Quebranta vs. Acholado**
+Quebranta o acholado: ¿cuál es mejor para tu pisco sour? Antes de responder, hay un mito que mucha gente se cree. El quebranta es pisco puro de una sola uva, la uva bandera del Perú: intenso y con cuerpo. El acholado mezcla varias uvas, como quebranta, italia o torontel. Y no, no es de menor calidad: mezclar bien es todo un arte. ¿Tú de qué equipo eres? Cuéntanos aquí.
 
-### Miércoles 04/11 · Historias CSI · último día [AJUSTE]
-Voz en off: Si estabas esperando una excusa para llevarte esa botella premium, el tiempo se acaba hoy. Hasta las 11:59 de la noche puedes pagar tu destilado favorito en cuotas sin intereses. Toca el enlace y asegura tu pedido antes de que el reloj marque las doce.
-> Saqué "sin recargos ocultos": no lo tenemos confirmado.
+**08/11 · Cómo elegir un vino sin saber de vino**
+¿Te ha pasado que estás frente a los vinos y terminas eligiendo el de la etiqueta más bonita? Hay un truco más fácil. Si un vino te gustó, fíjate en dos cosas: el país y la uva. Malbec de Argentina, carménère de Chile, tempranillo de España. Busca esa misma combinación en otra marca y casi siempre aciertas. Pruébalo con los vinos de Wine Bank, en el link.
 
-### Jueves 05/11 · Gran Malo · presentación [AJUSTE]
-Voz en off: Cuando Luisito Comunica lanzó su propio tequila, muchos pensaron que era solo una moda. Pero su sabor terminó convenciendo a todos: tequila con tamarindo y un toque picante que te cambia el esquema. Después de años viéndolo en internet, Gran Malo por fin llegó a Licorerías Unidas. Consíguelo en el link de nuestro perfil.
-> La marca lo presenta como tequila, no como "licor de tamarindo". Saqué "antes de que se agote el primer lote" porque esa urgencia no es real.
+**09/11 · Neyen**
+Hay vinos que salen de parras jóvenes, y otros de parras que tienen más de cien años. Neyen es de los segundos. Nace en Apalta, en el valle de Colchagua, en Chile, y su nombre en mapudungun significa "espíritu". Ya llegó a Licorerías Unidas. Mañana te enseñamos toda la colección.
 
-### Viernes 06/11 · Gran Malo · botella y precio [AJUSTE]
-Voz en off: Si ya tienes tu botella de Gran Malo, hay una regla para tomarlo: bien frío. En un shot helado, el dulce del tamarindo y el picante se equilibran sin quemar. 750 mililitros a S/ 100, listos para tu previa. Toca aquí abajo y pídelo desde la web.
-> Agregué el precio (S/ 100). Cambié "directo del congelador" por "bien frío" porque no tenemos confirmado que la marca lo recomiende así.
+**10/11 · Neyen, la colección**
+Conseguir una botella de Viña Neyen ya es difícil, pero tener la colección completa en un solo lugar es un privilegio. Acabamos de sumar el Blend Espíritu de Apalta y su línea Ancestral a nuestra cava. Si disfrutas de vinos con historia, tienes que probarlos. La colección completa está en el link de nuestro perfil.
 
-### Sábado 07/11 · Pisco Quebranta vs. Acholado [OK]
-Se usa el guion que ya existía (está en el planificador).
+**11/11 · Tres rones para tomar despacio**
+Si siempre pides el mismo ron, esto es para ti. Brugal Maestro Reserva, Zacapa La Pasión y Zacapa Edición Negra: tres rones que se toman despacio, sin apuro. Si tuvieras que abrir uno hoy, ¿cuál sería? Están en La Casa del Ron, link en el perfil.
 
-### Domingo 08/11 · Dato de vino · ¿Por qué giramos la copa? [NUEVO]
-- **Pantalla 1 (gancho):** ¿Giras la copa porque lo viste en una película… o sabes para qué sirve?
-- **Pantalla 2:** Cuando el vino gira, entra en contacto con el aire y suelta sus aromas: fruta, especias, madera.
-- **Pantalla 3:** Haz la prueba: huele el vino quieto y luego después de girarlo. Es otro vino.
-- **Pantalla 4 (microcompromiso):** Encuesta "¿Lo hacías sin saber por qué?" Sí / Claro que sabía.
-- **Pantalla 5 (cierre):** Practica con uno de Wine Bank: Pascual Toso Alta Malbec, S/ 169. Link a la web.
+**12/11 · Royal Salute 21 vs. Blue Label**
+Estas dos botellas son lo más alto del whisky escocés de mezcla, pero cada una cuenta una historia distinta. El Royal Salute nació en 1953 por la coronación de la reina Isabel II, y su botella de porcelana azul zafiro lo dice todo. El Blue Label no dice su edad, porque en su mezcla hay whiskies de destilerías que ya cerraron. Uno es denso, con notas de chocolate y frutos secos. El otro es suave, con miel y un ahumado ligero. Si tuvieras que regalar una, ¿cuál sería?
 
-Voz en off: ¿Giras la copa porque lo viste en una película o sabes para qué sirve? Al girarlo, el vino toma aire y suelta sus aromas. Haz la prueba: huélelo quieto y después de girarlo. Es otro vino. Practica con uno de Wine Bank: el link está aquí abajo.
+**13/11 · Pascual Toso**
+Una cena en casa, una reunión con amigos, un regalo que tiene que quedar bien. ¿El mismo vino sirve para todo? Pascual Toso tiene uno para cada momento: el Reserva Malbec a setenta soles para el día a día, el Alta Malbec a ciento sesenta y nueve para una buena cena, y la caja del 135 Aniversario para cuando quieres quedar bien de verdad. Elige el tuyo en el link.
 
-### Lunes 09/11 · Neyen · el vino de Apalta [NUEVO]
-- **Pantalla 1 (gancho):** Este vino viene de parras que tienen más de 100 años.
-- **Pantalla 2:** Neyen nace en Apalta, en el valle de Colchagua, Chile: uno de los rincones más reconocidos del vino chileno.
-- **Pantalla 3:** Su nombre viene del mapudungun y quiere decir "espíritu". Por eso su vino insignia se llama Espíritu de Apalta.
-- **Pantalla 4:** Carménère y Cabernet Sauvignon de viñas centenarias en una sola botella.
-- **Pantalla 5 (cierre):** Ya está en LU. Mañana te mostramos la colección completa (deja abierta la story del 10/11).
+**14/11 · Burbujas para cada presupuesto**
+¿Sesenta soles, trescientos o seiscientos? Para cualquiera de los tres hay burbujas. Un Riccadonna Prosecco a cincuenta y cinco. Un Gran Juvé, cava español, a doscientos setenta. Y un Veuve Clicquot a seiscientos. Dime cuánto quieres gastar este finde y yo te digo cuál abrir.
 
-Voz en off: Este vino viene de parras de más de cien años. Se llama Neyen, que en mapudungun significa "espíritu", y nace en Apalta, en el corazón del valle de Colchagua. Carménère y Cabernet Sauvignon de viñas centenarias en una sola botella. Ya está en Licorerías Unidas, y mañana te mostramos la colección completa.
+**15/11 · La Casa del Ron**
+¿Cuántas marcas de ron crees que tenemos? ¿Diez? ¿Veinte? Son más de treinta y cinco. Casi ciento cincuenta rones de Guatemala, Nicaragua, Venezuela, República Dominicana, Cuba, Barbados y más, desde el que va con la cola hasta el que se toma solo. Y si hay uno que buscas y no encuentras, escríbenos.
 
-### Martes 10/11 · Neyen · botellas y precios [OK]
-Voz en off: Conseguir una botella de Viña Neyen ya es difícil, pero tener la colección completa en un solo lugar es un verdadero privilegio. Acabamos de sumar el Blend Espíritu de Apalta y su línea Ancestral a nuestra cava. Si disfrutas de vinos con historia, tienes que probarlos. Encuentra la colección completa en el link de nuestro perfil.
-> Saqué "mítica" y "producción limitada" porque no lo tenemos verificado. Precios de Neyen: `[PRECIO]`.
+**16/11 · Chivas Regal Ultis**
+Chivas Regal tiene muchos whiskies, pero solo uno lleva únicamente whiskies de malta: Ultis. Cinco maltas de Speyside y nada más. Está a setecientos noventa y nueve soles. ¿Lo habías probado?
 
-### Miércoles 11/11 · La Casa del Ron · botellas difíciles de encontrar [NUEVO]
-- **Pantalla 1 (gancho):** ¿Cuál fue el último ron que te sorprendió de verdad?
-- **Pantalla 2:** Brugal Maestro Reserva: la reserva de los maestros roneros de Brugal. S/ 1,499.
-- **Pantalla 3:** Zacapa La Pasión, de la Heavenly Cask Collection. S/ 499.
-- **Pantalla 4:** Zacapa Edición Negra. S/ 550.
-- **Pantalla 5 (cierre):** Encuesta "¿Cuál abrirías primero?" + link a La Casa del Ron.
+**17/11 · Wine Bank, vinos de altura**
+Dicen que los mejores vinos de Argentina nacen al límite, y los viñedos de altura lo demuestran. A más de mil metros, las uvas soportan un clima extremo que las obliga a concentrar aromas, color y sabor. Etiquetas como Gran Enemigo nacen así. Descubre nuestra selección de vinos de altura en la web.
 
-Voz en off: ¿Cuál fue el último ron que te sorprendió de verdad? Si la respuesta tarda, mira esto. Brugal Maestro Reserva, la reserva de sus maestros roneros. Zacapa La Pasión, de la Heavenly Cask Collection. Y Zacapa Edición Negra. Tres rones para cuando el de siempre ya no basta. Están en La Casa del Ron, en el link de aquí abajo.
-> Sin "colección Rarezas" (no existe como colección), sin "casi nadie más tiene en Lima" y sin "vuelan apenas los publicamos".
+**18/11 · Destino Mendoza**
+Febrero. La cordillera de los Andes al frente, viñedos hasta donde te alcanza la vista, y a tu lado la persona que tú elegiste. Eso es lo que sorteamos en Destino Mendoza: un viaje para dos. Tienes del quince de noviembre al treinta y uno de diciembre para participar. Ahora piensa rápido: ¿a quién llevarías? Cómo participar, en el link.
 
-### Sábado 14/11 · Espumantes · recorrido [NUEVO]
-- **Pantalla 1 (gancho):** No todo lo que tiene burbujas es champagne.
-- **Pantalla 2:** Prosecco: de Italia, fresco y frutal. Riccadonna Prosecco, S/ 55.
-- **Pantalla 3:** Cava: de España, hecho con el mismo método que el champagne. Juvé & Camps Gran Juvé, S/ 270.
-- **Pantalla 4:** Champagne: solo si viene de Champagne, Francia. Veuve Clicquot, S/ 600.
-- **Pantalla 5 (cierre):** Encuesta "¿Tú qué abres este finde?" Prosecco / Cava / Champagne. Link a espumantes.
+**19/11 · Clase Azul Reposado**
+Hay botellas que se terminan y se tiran. Esta no. El decantador de Clase Azul está hecho y pintado a mano en México, y por eso no hay dos iguales. Adentro, un tequila reposado cien por ciento agave. Está a mil doscientos cuarenta soles. ¿Tú lo tomas o lo dejas en la repisa?
 
-Voz en off: No todo lo que tiene burbujas es champagne. El prosecco viene de Italia y es fresco y frutal. El cava es español y se hace con el mismo método que el champagne. Y champagne solo es el que viene de Champagne, en Francia. Desde S/ 55 hasta S/ 600: elige el tuyo en el link de aquí abajo.
+**20/11 · Champagne, cava y prosecco**
+¿Le dices champagne a todo lo que tiene burbujas? Tranquilo, casi todos lo hacen. El prosecco es italiano, fresco y frutal. El cava es español y se hace con el mismo método que el champagne. Y champagne, de verdad, solo es el que viene de Champagne, en Francia. ¿Cuál vas a abrir este finde?
 
-### Domingo 15/11 · La Casa del Ron · marcas [NUEVO]
-- **Pantalla 1 (gancho, número grande en pantalla):** Más de 35 marcas de ron. Un solo lugar.
-- **Pantalla 2:** De Guatemala, Nicaragua, Venezuela, República Dominicana, Cuba, Barbados, Filipinas y más.
-- **Pantalla 3 (montaje rápido de logos o botellas):** Zacapa, Flor de Caña, Diplomático, Barceló, Dictador, Brugal, Havana Club, Mount Gay, Don Papa…
-- **Pantalla 4:** Casi 150 rones distintos: del que va con la cola al que se toma solo.
-- **Pantalla 5 (cierre):** Pregunta "¿Qué ron no encuentras?" + link a La Casa del Ron.
+**21/11 · Pre Black Friday**
+Anota esta fecha: viernes 27 de noviembre. Todavía no te podemos contar qué va a pasar en Licorerías Unidas, pero sí te podemos dar un consejo: ve armando tu lista desde hoy.
 
-Voz en off: Más de treinta y cinco marcas de ron. Un solo lugar. De Guatemala, Nicaragua, Venezuela, República Dominicana, Cuba, Barbados y más. Casi ciento cincuenta rones distintos, del que va con la cola al que se toma solo. Eso es La Casa del Ron. Y si hay uno que no encuentras, escríbenos aquí abajo.
-> Números del inventario: 38 marcas de ron con stock y 149 productos.
+**22/11 · Destino Mendoza, recordatorio**
+Ese viaje para dos a Mendoza todavía no tiene dueño. Tienes hasta el treinta y uno de diciembre para participar. Revisa cómo en el link.
 
-### Martes 17/11 · Wine Bank · vinos de altura [OK]
-Voz en off: Dicen que los mejores vinos de Argentina nacen al límite, y los viñedos de altura lo demuestran. A más de mil metros, las uvas soportan un clima extremo que las obliga a concentrar aromas, color y sabor. Etiquetas como Gran Enemigo nacen así. Descubre nuestra selección de vinos de altura en la web.
+**23/11 · Pre Black Friday, cuenta regresiva**
+Faltan cuatro días. Si estás pensando en un regalo de fin de año o en armar tu bar para las fiestas, este viernes conviene esperar. Activa el recordatorio aquí abajo.
 
-### Miércoles 18/11 · DESTINO MENDOZA · cómo participar [NUEVO]
-- **Pantalla 1 (gancho, voz rápida y cortes):** Febrero de 2027. Tú. Mendoza.
-- **Pantalla 2:** Cordillera de los Andes de fondo, viñedos hasta donde llega la vista (imágenes de Mendoza).
-- **Pantalla 3:** Esto no es un sueño: es el premio de DESTINO MENDOZA. Un viaje para dos personas.
-- **Pantalla 4:** Participas del 15 de noviembre al 31 de diciembre.
-- **Pantalla 5 (microcompromiso):** Pregunta "¿Con quién irías?" (que la gente etiquete o responda).
-- **Pantalla 6 (cierre):** Cómo participar, en las bases. Link.
+**24/11 · Pre Black Friday**
+¿Whisky, ron o vino? ¿Qué botella tienes en la mira? Este viernes 27 algo cambia en Licorerías Unidas. Revisa el catálogo desde el link y ten tu lista lista.
 
-Voz en off: Febrero de 2027. Tú. Mendoza. La cordillera de fondo y viñedos hasta donde llega la vista. No es un sueño: es el premio de Destino Mendoza, un viaje para dos personas. Tienes del 15 de noviembre al 31 de diciembre para participar. Ahora dime: ¿con quién irías? Cómo participar, en el link.
-> Saqué "todo pagado" y "cada pedido te suma un ticket automático": no están en las bases todavía. Cuando legal valide la mecánica (16/11), se agrega en una pantalla.
+**25 al 27/11 · Black Friday**
+Van aparte, con las condiciones comerciales.
 
-### Jueves 19/11 · Botella del día · Clase Azul Reposado [NUEVO]
-- **Pantalla 1 (gancho, toma de la botella girando):** Esta botella está pintada a mano. Y no es lo único especial.
-- **Pantalla 2:** Clase Azul Reposado: tequila 100% de agave, reposado en barrica.
-- **Pantalla 3:** Su decantador de cerámica es hecho y pintado a mano en México. Cada uno es único.
-- **Pantalla 4:** S/ 1,240.
-- **Pantalla 5 (cierre):** Encuesta "¿Lo tomas o lo exhibes?" + link.
+**28/11 · Destino Mendoza**
+Black Friday ya pasó, pero Destino Mendoza sigue. El viaje para dos se sortea entre quienes participen hasta el treinta y uno de diciembre. Revisa cómo en el link.
 
-Voz en off: Esta botella está pintada a mano, y no es lo único especial. Clase Azul Reposado: tequila cien por ciento agave, reposado en barrica, en un decantador de cerámica hecho y pintado a mano en México. Cada botella es única. ¿Tú lo tomas o lo exhibes? Está en el link de aquí abajo.
-> Reemplaza a Hendrick's. Hay 5 unidades.
-
-### Sábado 21/11 · Pre Black Friday · aviso [AJUSTE]
-Voz en off: Guarda esta fecha: viernes 27 de noviembre. Lo que va a pasar ese día en Licorerías Unidas todavía no te lo podemos contar. Entra a la web y ve armando tu lista de deseos.
-> Saqué "llevamos meses negociando" y "el ajuste más importante del año": no lo tenemos confirmado.
-
-### Domingo 22/11 · DESTINO MENDOZA · recordatorio [AJUSTE]
-Voz en off: Ese viaje para dos personas a Mendoza sigue buscando dueño. Tienes hasta el 31 de diciembre para participar. Revisa cómo hacerlo en el enlace.
-> Saqué "cada compra en la web o en tienda te acerca más": la mecánica no está definida.
-
-### Lunes 23/11 · Pre Black Friday · cuenta regresiva [OK]
-Va sin cambios.
-
-### Martes 24/11 · Pre Black Friday · qué viene [AJUSTE]
-Voz en off: ¿Whisky, ron o vino? Este viernes 27 algo cambia en Licorerías Unidas. Revisa el catálogo desde el enlace y ten tu lista lista.
-> Saqué "beneficios que solo durarán 24 horas" y "las unidades desaparecerán rápido" hasta que estén las condiciones de Black Friday.
-
-### Miércoles 25/11 a viernes 27/11 · Black Friday
-Van aparte, con las definiciones comerciales.
-> En la del 26/11, las marcas (Macallan, Johnnie Walker, Catena, Zacapa) solo se nombran si entran en la oferta.
-
-### Sábado 28/11 · DESTINO MENDOZA · después de Black Friday [AJUSTE]
-Voz en off: Black Friday pasó, pero Destino Mendoza sigue. El viaje para dos personas a Mendoza se sortea entre quienes participen hasta el 31 de diciembre. Revisa cómo participar en el enlace.
-> Saqué "tus compras ya están participando" y "suma tickets": depende de la mecánica.
-
-### Lunes 30/11 · Botella del día · ron
-Ron Zacapa XO 750 ml · S/ 445. Pendiente de guion.
+**30/11 · Ron Zacapa XO**
+La mayoría de rones se añejan en un solo tipo de barrica. Zacapa XO no se conforma con eso: termina su añejamiento en barricas de roble francés que antes tuvieron coñac. Por eso es más seco y más complejo que el Zacapa que conoces. Está a cuatrocientos cuarenta y cinco soles. ¿Lo pruebas solo o con un hielo?
