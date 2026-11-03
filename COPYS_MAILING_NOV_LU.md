@@ -29,7 +29,7 @@ Gran Malo es la marca de tequila de Luisito Comunica: tequila con sabores que no
 
 - **CTA:** Ver Gran Malo en LU
 
-> Inventario: solo hay Spicy Tamarindo (24 unidades, todas en Surco). No hay otros sabores, por eso va uno solo.
+> Recién llegó: por ahora el inventario solo muestra Spicy Tamarindo (24 unidades en Surco). Si llegan más sabores o pasa a otras tiendas antes del 05/11, se agregan aquí.
 
 ---
 
