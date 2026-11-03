@@ -55,16 +55,16 @@ Pídelo hoy en la web y prepárate para el finde.
 
 - **Asunto A:** Rones que casi nadie tiene en Lima
 - **Asunto B:** Si no lo encuentras en ningún lado, está aquí
-- **Preheader:** Barricas japonesas, ediciones especiales y rones que se toman despacio.
+- **Preheader:** Botellas que no vas a encontrar en otra tienda de Lima.
 
 **Cuerpo:**
 
 Esto no lo vas a encontrar en el súper.
 
-En La Casa del Ron guardamos botellas para quien busca algo distinto: acabados en barricas poco comunes y ediciones que se vuelven tema de conversación.
+Rarezas es la selección de La Casa del Ron con botellas que no se encuentran en otros e-commerce de Lima: ediciones especiales, acabados poco comunes y rones que se toman despacio.
 
 **Selección Rarezas:**
-- **Ron Barceló Imperial Mizunara Cask 750 ml:** S/ 270. Terminado en roble japonés Mizunara.
+- **Ron Brugal Maestro Reserva 700 ml:** S/ 1,499. Reserva de la familia maestra ronera de Brugal.
 - **Ron Zacapa La Pasión Heavenly Cask Collection 700 ml:** S/ 499
 - **Ron Zacapa Edición Negra 750 ml:** S/ 550
 
