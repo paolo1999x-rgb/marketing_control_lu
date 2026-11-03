@@ -53,24 +53,24 @@ Haz tu pedido hoy desde la web y recíbelo directamente en tu puerta.
 
 ---
 
-## 3. Martes 10/11 · La Casa del Ron · Rarezas
+## 3. Martes 10/11 · La Casa del Ron · tres rones especiales
 
-- **Asunto A:** Rones que casi nadie tiene en Lima
-- **Asunto B:** Si no lo encuentras en ningún lado, está aquí
-- **Preheader:** Botellas que no vas a encontrar en otra tienda de Lima.
+- **Asunto A:** Para cuando el ron de siempre ya no basta
+- **Asunto B:** ¿Cuál fue el último ron que te sorprendió?
+- **Preheader:** Tres rones de La Casa del Ron que se toman despacio.
 
 **Cuerpo:**
 
-Esto no lo vas a encontrar en el súper.
+Si el último ron que probaste no te sorprendió, este correo es para ti.
 
-Rarezas es la selección de La Casa del Ron con botellas que no se encuentran en otros e-commerce de Lima: ediciones especiales, acabados poco comunes y rones que se toman despacio.
+En La Casa del Ron elegimos tres botellas con historia: una reserva de maestros roneros y dos ediciones especiales de Zacapa.
 
-**Selección Rarezas:**
+**La selección:**
 - **Ron Brugal Maestro Reserva 700 ml:** S/ 1,499. Reserva de la familia maestra ronera de Brugal.
 - **Ron Zacapa La Pasión Heavenly Cask Collection 700 ml:** S/ 499
 - **Ron Zacapa Edición Negra 750 ml:** S/ 550
 
-- **CTA:** Ver Rarezas en la web
+- **CTA:** Ver La Casa del Ron en la web
 
 ---
 
