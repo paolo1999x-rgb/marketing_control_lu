@@ -1,9 +1,6 @@
-# Copys de mailing · Licorerías Unidas · Noviembre 2026 (corregidos)
+# Copys de mailing · Licorerías Unidas · Noviembre 2026
 
-**Cómo leer los marcadores**
-- `[PRECIO]`: precio que no está verificado. Revisarlo en la web antes de enviar.
-- `[OFERTA]`: descuento o beneficio por definir con Cristhian. Los martes y viernes son de oferta.
-- `[LINK BASES]`: página de bases de Destino Mendoza (la prepara e-commerce).
+Precios tomados del planificador (campaña CSI), del catálogo de vinos (precio venta vs. precio normal) y de lo que confirmaste. Stock revisado con el inventario del 03/11. Donde dice "antes", es el precio normal del catálogo, o sea un ahorro real.
 
 **Pie legal (va en todos):**
 
@@ -16,66 +13,62 @@
 
 - **Asunto A:** El tequila de Luisito Comunica ya llegó
 - **Asunto B:** Lo que Luisito Comunica toma, ahora en LU
-- **Preheader:** Gran Malo ya está en Licorerías Unidas. Mira sus sabores.
+- **Preheader:** Gran Malo acaba de llegar a Licorerías Unidas.
 
 **Cuerpo:**
 
 Seguro lo viste en sus videos. Ahora lo tienes a un clic.
 
-Gran Malo es la marca de tequila de Luisito Comunica: tequila con sabores que no esperas, hecho para la previa y para compartir. Ya llegó a Licorerías Unidas.
+Gran Malo es la marca de tequila de Luisito Comunica, y acaba de llegar a Licorerías Unidas. Tequila con tamarindo y un toque picante: para la previa, para compartir y para que alguien pregunte "¿y eso qué es?".
 
-**Disponible en LU:**
-- Tequila Gran Malo Spicy Tamarindo 750 ml: S/ `[PRECIO]`
+**Recién llegado:**
+- Tequila Gran Malo Spicy Tamarindo 750 ml: S/ 100
 
-- **CTA:** Ver Gran Malo en LU
-
-> Recién llegó: por ahora el inventario solo muestra Spicy Tamarindo (24 unidades en Surco). Si llegan más sabores o pasa a otras tiendas antes del 05/11, se agregan aquí.
+- **CTA:** Quiero mi Gran Malo
+- **P.D.:** Recién llegó y por ahora está en la tienda de Surco y en la web.
 
 ---
 
 ## 2. Viernes 06/11 · Oferta de fin de semana
 
 - **Asunto A:** Tu viernes empieza a las 5 (y el precio también)
-- **Asunto B:** Las 3 botellas de tu previa, con precio de viernes
-- **Preheader:** Desde hoy a las 5 pm hasta el domingo 23:59.
+- **Asunto B:** Las 3 botellas de tu previa ya están elegidas
+- **Preheader:** Un tinto con S/ 160 menos, un gin y unas burbujas para el finde.
 
 **Cuerpo:**
 
 Cierra la laptop: el fin de semana ya empezó.
 
-Para la previa de hoy, la cena o la parrilla del domingo, estas 3 botellas tienen precio especial solo hasta el domingo.
+Para la previa de hoy, la cena o la parrilla del domingo, estas 3 botellas no fallan:
 
-- Whisky `[PRODUCTO]`: antes S/ `[PRECIO]` · ahora S/ `[OFERTA]`
-- Gin `[PRODUCTO]`: antes S/ `[PRECIO]` · ahora S/ `[OFERTA]`
-- Espumante `[PRODUCTO]`: antes S/ `[PRECIO]` · ahora S/ `[OFERTA]`
+- **Vino Gran Enemigo Agrelo 750 ml:** antes S/ 450 · ahora S/ 290
+- **Gin Hendrick's 700 ml:** S/ 110
+- **Espumante Chandon Extra Brut 750 ml:** S/ 62
+
+Pídelo hoy en la web y prepárate para el finde.
 
 - **CTA:** Armar mi pedido del finde
-- **P.D.:** El precio vuelve a la normalidad el domingo a las 23:59.
 
 ---
 
-## 3. Martes 10/11 · Oferta La Casa del Ron · Rarezas
+## 3. Martes 10/11 · La Casa del Ron · Rarezas
 
 - **Asunto A:** Rones que casi nadie tiene en Lima
 - **Asunto B:** Si no lo encuentras en ningún lado, está aquí
-- **Preheader:** Ediciones limitadas y barricas especiales de La Casa del Ron.
+- **Preheader:** Barricas japonesas, ediciones especiales y rones que se toman despacio.
 
 **Cuerpo:**
 
 Esto no lo vas a encontrar en el súper.
 
-Rarezas es la línea de La Casa del Ron para quien busca algo distinto: ediciones limitadas, acabados en barricas poco comunes y botellas que se vuelven tema de conversación.
+En La Casa del Ron guardamos botellas para quien busca algo distinto: acabados en barricas poco comunes y ediciones que se vuelven tema de conversación.
 
 **Selección Rarezas:**
-- Ron Barceló Imperial Mizunara Cask 750 ml: S/ 270
-- Ron Dictador x Richard Orlinski "Game Changer" Green Edition 700 ml: S/ `[PRECIO]`
-- Ron Dictador 20 Años 700 ml: S/ `[PRECIO]`
-
-Beneficio de la semana: `[OFERTA]`
+- **Ron Barceló Imperial Mizunara Cask 750 ml:** S/ 270. Terminado en roble japonés Mizunara.
+- **Ron Zacapa La Pasión Heavenly Cask Collection 700 ml:** S/ 499
+- **Ron Zacapa Edición Negra 750 ml:** S/ 550
 
 - **CTA:** Ver la colección Rarezas
-
-> Inventario: Barceló Mizunara 13 unidades, Orlinski Green 5, Dictador 20 Años 8. Saqué Mount Gay 1703 Sherry Cask (no figura en el inventario) y Dictador Jerarquía (queda 1).
 
 ---
 
@@ -83,7 +76,7 @@ Beneficio de la semana: `[OFERTA]`
 
 - **Asunto A:** Uno cuesta cientos de soles más. ¿Adivinas cuál?
 - **Asunto B:** Royal Salute 21 o Blue Label: ¿cuál pagarías?
-- **Preheader:** Dos leyendas escocesas frente a frente. La respuesta te va a sorprender.
+- **Preheader:** Dos leyendas escocesas frente a frente.
 
 **Cuerpo:**
 
@@ -96,30 +89,25 @@ Dos botellas. Dos leyendas. Una cuesta bastante más que la otra.
 ¿Cuál crees que cuesta más?
 
 - **CTA:** Ver la respuesta
-- **Al hacer clic:** Blue Label S/ 870 · Royal Salute 21 S/ 699
-
-> Precios del planificador (Royal Salute 21 S/ 699 confirmado por ti). Validar el Blue Label en la web.
+- **Al hacer clic:** Johnnie Walker Blue Label S/ 870 · Chivas Royal Salute 21 años S/ 699. Los S/ 171 de diferencia los pone la escasez, no la edad.
 
 ---
 
-## 5. Viernes 13/11 · Oferta de fin de semana · Packs
+## 5. Viernes 13/11 · Packs de fin de semana
 
 - **Asunto A:** Packs armados para este finde
-- **Asunto B:** ¿Reunión a la vista? El bar ya te lo armamos
-- **Preheader:** Todo en un solo pedido. Hasta el domingo 23:59.
+- **Asunto B:** ¿Reunión a la vista? El regalo ya viene incluido
+- **Preheader:** Vinos argentinos con copas o decantador de regalo, y un pack de ron con habanos.
 
 **Cuerpo:**
 
-Tu reunión resuelta en un solo pedido.
+Tu reunión resuelta en un solo pedido, y con regalo.
 
-Packs listos para que solo pongas el hielo:
-- `[PACK 1]`: antes S/ `[PRECIO]` · ahora S/ `[OFERTA]`
-- `[PACK 2]`: antes S/ `[PRECIO]` · ahora S/ `[OFERTA]`
-- `[PACK 3]`: antes S/ `[PRECIO]` · ahora S/ `[OFERTA]`
+- **Pack Gran Enemigo Gualtallary:** 3 botellas + 3 copas de cristal o 1 decantador (tú eliges). S/ 1,110. Cada botella sale a S/ 370 (precio normal S/ 510).
+- **Pack Catena Zapata Malbec Argentino:** 3 botellas + 3 copas de cristal o 1 decantador. S/ 1,170.
+- **Pack Premium Zacapa:** Ron Zacapa XO + 2 habanos (Montecristo Espada Ricasso y Gran Habano Vintage 2006 XO). S/ 640.
 
 - **CTA:** Ver packs del finde
-
-> Usar solo packs publicados en la web. No crear packs nuevos para este correo. Sin P.D. de "stock limitado", salvo que se confirme.
 
 ---
 
@@ -127,7 +115,7 @@ Packs listos para que solo pongas el hielo:
 
 - **Asunto A:** Te podemos llevar a Mendoza. Así participas
 - **Asunto B:** Un viaje para dos a Mendoza empieza en LU
-- **Preheader:** Del 15 de noviembre al 31 de diciembre. Revisa las bases.
+- **Preheader:** Del 15 de noviembre al 31 de diciembre.
 
 **Cuerpo:**
 
@@ -137,11 +125,9 @@ Viñedos, montañas y la cordillera de los Andes de fondo.
 
 - **Vigencia:** del 15 de noviembre al 31 de diciembre de 2026.
 - **Premio:** viaje para dos personas a Mendoza.
-- **Cómo participar:** las condiciones completas, la mecánica y la elegibilidad están en las bases oficiales.
+- **Cómo participar:** todo está en las bases oficiales.
 
-- **CTA:** Ver bases y participar → `[LINK BASES]`
-
-> Según la ficha de Destino Mendoza, la mecánica y las bases se validan el 16/11 con legal. Si para el 17/11 ya está la mecánica (por ejemplo, cuánto hay que comprar para participar), se agrega aquí. Mientras tanto, no se publica nada que no esté en las bases.
+- **CTA:** Ver bases y participar (enlace a la página de bases que arma e-commerce)
 
 ---
 
@@ -159,38 +145,37 @@ Compraste un buen vino, lo serviste y… nada especial. Probablemente fue la cop
 - **Blanco y rosado:** copa más pequeña. Mantiene el frío y la frescura.
 - **Espumante:** copa alta y delgada (flauta). Conserva la burbuja.
 
-Bonus: el tinto no se sirve "al tiempo" en Lima; un poco fresco (16–18 °C) sabe mucho mejor.
+Bonus: en Lima el tinto no se sirve "al tiempo". Un poco fresco (16–18 °C) sabe mucho mejor.
 
-Ahora que ya sabes servirlo, elige el vino en Wine Bank:
-- Tinto `[PRODUCTO]`: S/ `[PRECIO]`
-- Blanco `[PRODUCTO]`: S/ `[PRECIO]`
-- Espumante Chandon Extra Brut 750 ml: S/ 62
+Ahora que ya sabes servirlo:
+- **Tinto · Gran Enemigo Gualtallary 750 ml:** antes S/ 510 · ahora S/ 370
+- **Blanco · El Enemigo Chardonnay 750 ml:** antes S/ 110 · ahora S/ 95
+- **Espumante · Chandon Extra Brut 750 ml:** S/ 62
 
 - **CTA:** Elegir mi vino en Wine Bank
 
 ---
 
-## 8. Viernes 20/11 · Oferta de fin de semana · Espumantes
+## 8. Viernes 20/11 · Espumantes de fin de semana
 
 - **Asunto A:** Champagne, cava o prosecco: ¿cuál descorchas este finde?
 - **Asunto B:** No todas las burbujas son champagne
-- **Preheader:** La diferencia en 3 líneas, y precio especial hasta el domingo.
+- **Preheader:** La diferencia en 3 líneas, desde S/ 55.
 
 **Cuerpo:**
 
-Todos los llaman champagne, pero no todos lo son.
+Todos les dicen champagne, pero no todos lo son.
 
 - **Champagne:** solo si viene de Champagne, Francia. Elegante y con burbuja fina.
 - **Cava:** de España, hecho con el mismo método que el champagne. Gran calidad por menos.
 - **Prosecco:** de Italia. Fresco, frutal y fácil de tomar.
 
-Elige el tuyo para este finde:
-- Champagne `[PRODUCTO]`: antes S/ `[PRECIO]` · ahora S/ `[OFERTA]`
-- Cava `[PRODUCTO]`: antes S/ `[PRECIO]` · ahora S/ `[OFERTA]`
-- Prosecco `[PRODUCTO]`: antes S/ `[PRECIO]` · ahora S/ `[OFERTA]`
+Elige el tuyo:
+- **Champagne · Veuve Clicquot Brut + estuche Arrow 750 ml:** S/ 600
+- **Cava · Juvé & Camps Gran Juvé 750 ml:** S/ 270
+- **Prosecco · Riccadonna Prosecco 750 ml:** S/ 55
 
 - **CTA:** Elegir mis burbujas
-- **P.D.:** Precio especial hasta el domingo a las 23:59.
 
 ---
 
@@ -224,8 +209,9 @@ Mañana empieza el Black Friday en LU.
 
 El consejo de hoy: arma tu lista ahora para no perder tiempo mañana. Y si vas a brindar en las fiestas, empieza por las burbujas:
 
-- Espumante Chandon Extra Brut 750 ml (10 unidades, solo San Isidro)
-- Champagne Moët & Chandon Impérial 750 ml (28 unidades)
+- Espumante Chandon Extra Brut 750 ml
+- Champagne Moët & Chandon Impérial 750 ml
+- Cava Juvé & Camps Gran Juvé 750 ml
 
 Mañana te enviamos los precios apenas se activen.
 
@@ -235,11 +221,8 @@ Mañana te enviamos los precios apenas se activen.
 
 ## 11. Viernes 27/11 · Black Friday
 
+Va aparte: se arma con las definiciones comerciales de Black Friday.
+
 - **Asunto A:** Ya empezó. Hasta las 23:59
 - **Asunto B:** Black Friday en LU: hoy y solo hoy
-- **Preheader:** `[OFERTA BLACK FRIDAY]`
-
-**Cuerpo:** pendiente de las definiciones comerciales del día (descuentos, productos y packs).
-
 - **CTA:** Ver ofertas Black Friday
-- **P.D.:** Termina hoy a las 23:59.
