@@ -10,8 +10,7 @@ El texto va corto; los productos salen como tarjetas con foto, precio y botón.
 
 Cuerpo:
 
-Luis Miguel llegó a Licorerías Unidas.
-Bueno, su tequila. Y no vino solo: también llegó Gran Malo, el tequila de Luisito Comunica, y Contraluz, el mezcal cristalino de Maluma.
+Bueno… su tequila. Y no vino solo: también llegó Gran Malo, el tequila de Luisito Comunica, y Contraluz, el mezcal cristalino de Maluma.
 
 Tres botellas con nombre propio y tres estilos distintos: uno dulce y picante, uno suave y transparente, y un clásico de agave azul. Mira cuál va contigo.
 
