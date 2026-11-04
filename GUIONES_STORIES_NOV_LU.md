@@ -3,11 +3,11 @@
 **04/11 · CSI, último día**
 Esa botella que tienes en el carrito desde hace días, esa que siempre dejas para después… Hoy es el último día para llevártela en cuotas sin intereses. A las once y cincuenta y nueve de la noche se acaba. Mañana ya no. Entra al link y llévatela hoy.
 
-**05/11 · Gran Malo**
-Seguro ya lo viste en los videos de Luisito Comunica. Gran Malo, su tequila con tamarindo y un toque de picante, lleva años dando que hablar en México. Lo difícil era conseguirlo acá. Eso ya cambió: Gran Malo ya está en Licorerías Unidas. Link en el perfil.
+**05/11 · Nuevos ingresos: tres botellas con nombre propio**
+¿Qué tienen en común Luisito Comunica, Maluma y Luis Miguel? Los tres tienen su propia botella… y las tres acaban de llegar a Licorerías Unidas. Gran Malo, el tequila de Luisito, con tamarindo y un toque picante. Contraluz, el tequila de Maluma. Y Don Ramón Plata, en su edición Luis Miguel. Si tuvieras que elegir una, ¿cuál sería? Respóndenos aquí.
 
-**06/11 · Gran Malo, cómo se toma**
-¿Gran Malo se toma solo o en shot? Bien frío y en shot: primero llega el dulce del tamarindo y el picante aparece después, sin quemar. Una botella está a cien soles y te alcanza para toda la previa. Pídela desde la web.
+**06/11 · Nuevos ingresos: ron y whisky**
+Si tu bar ya tiene lo de siempre, esto es lo que le falta. De Colombia, la familia Dictador: Cartagena, Reserva Icónica de diez años, Reserva Premium de doce y los Game Changer. De República Dominicana, León de Jimenes: el Extra Añejo 1903 y La Aurora 110 Aniversario. De Escocia, The Macallan Time Space Mastery. De Francia, Grand Marnier Cuvée du Centenaire. Y de Japón, Yamato Samurai Edition. Cinco marcas nuevas, una sola repisa. Todo en Licorerías Unidas.
 
 **07/11 · Pisco Quebranta vs. Acholado**
 Quebranta o acholado: ¿cuál es mejor para tu pisco sour? Antes de responder, hay un mito que mucha gente se cree. El quebranta es pisco puro de una sola uva, la uva bandera del Perú: intenso y con cuerpo. El acholado mezcla varias uvas, como quebranta, italia o torontel. Y no, no es de menor calidad: mezclar bien es todo un arte. ¿Tú de qué equipo eres? Cuéntanos aquí.
@@ -15,11 +15,11 @@ Quebranta o acholado: ¿cuál es mejor para tu pisco sour? Antes de responder, h
 **08/11 · Cómo elegir un vino sin saber de vino**
 ¿Te ha pasado que estás frente a los vinos y terminas eligiendo el de la etiqueta más bonita? Hay un truco más fácil. Si un vino te gustó, fíjate en dos cosas: el país y la uva. Malbec de Argentina, carménère de Chile, tempranillo de España. Busca esa misma combinación en otra marca y casi siempre aciertas. Pruébalo con los vinos de Wine Bank, en el link.
 
-**09/11 · Neyen**
-Hay vinos que salen de parras jóvenes, y otros de parras que tienen más de cien años. Neyen es de los segundos. Nace en Apalta, en el valle de Colchagua, en Chile, y su nombre en mapudungun significa "espíritu". Ya llegó a Licorerías Unidas. Mañana te enseñamos toda la colección.
+**09/11 · Nuevos ingresos: vinos de California y España**
+¿Cuándo fue la última vez que probaste un vino de California? Llegaron tres de golpe. Bogle, con su Chardonnay, Pinot Grigio, Pinot Noir, Cabernet y Zinfandel. Juggernaut, con su Cabernet, Pinot Noir y Red Blend. Y Phantom, en Red Blend y Chardonnay. Y desde Toro, en España, Monte La Reina: Km 0, Preludio y Cuvée Privée. Cuatro bodegas nuevas en Wine Bank. Encuentra la tuya en el link.
 
-**10/11 · Neyen, la colección**
-Conseguir una botella de Viña Neyen ya es difícil, pero tener la colección completa en un solo lugar es un privilegio. Acabamos de sumar el Blend Espíritu de Apalta y su línea Ancestral a nuestra cava. Si disfrutas de vinos con historia, tienes que probarlos. La colección completa está en el link de nuestro perfil.
+**10/11 · Nuevos ingresos: vinos de Chile, Italia y burbujas**
+Lo nuevo para tu mesa viene de dos lados del mundo. De Chile, Neyen, del valle de Apalta, con su línea Ancestral y Espíritu de Apalta. Y Aquitania, en Chardonnay, Cabernet y Carmenere. También llegó Milamore. Y desde Italia, las burbujas de Casa Martelletti: Blanc de Blancs, Prosecco y Asti. ¿Tinto, blanco o con burbujas? Elige en el link.
 
 **11/11 · Tres rones para tomar despacio**
 Si siempre pides el mismo ron, esto es para ti. Brugal Maestro Reserva, Zacapa La Pasión y Zacapa Edición Negra: tres rones que se toman despacio, sin apuro. Si tuvieras que abrir uno hoy, ¿cuál sería? Están en La Casa del Ron, link en el perfil.
@@ -32,9 +32,6 @@ Una cena en casa, una reunión con amigos, un regalo que tiene que quedar bien. 
 
 **14/11 · Burbujas para cada presupuesto**
 ¿Sesenta soles, trescientos o seiscientos? Para cualquiera de los tres hay burbujas. Un Riccadonna Prosecco a cincuenta y cinco. Un Gran Juvé, cava español, a doscientos setenta. Y un Veuve Clicquot a seiscientos. Dime cuánto quieres gastar este finde y yo te digo cuál abrir.
-
-**14/11 · Contraluz Reposado (nuevo ingreso)**
-Hay tequilas que se toman de un golpe y otros que se toman despacio. Contraluz Reposado es de los segundos. Acaba de llegar a Licorerías Unidas y está a doscientos veinticinco soles. Por ahora lo encuentras en nuestra tienda de Surco y en la web. Link en el perfil.
 
 **15/11 · La Casa del Ron**
 ¿Cuántas marcas de ron crees que tenemos? ¿Diez? ¿Veinte? Son más de treinta y cinco. Casi ciento cincuenta rones de Guatemala, Nicaragua, Venezuela, República Dominicana, Cuba, Barbados y más, desde el que va con la cola hasta el que se toma solo. Y si hay uno que buscas y no encuentras, escríbenos.
