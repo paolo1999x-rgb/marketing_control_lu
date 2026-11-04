@@ -7,7 +7,7 @@ Cómo cada herramienta cumple con la independencia del ecosistema C.O.O.P.E.R.: 
 | Artefacto | Plataforma (funciona sin Claude) | Proveedor de IA | Infraestructura (datos tuyos) | Estado |
 |---|---|---|---|---|
 | **Planificador** (`apps/planificador`) | Sí: HTML + JS, se abre en el navegador | No usa IA | Sí: datos en tu navegador y respaldo en JSON | Listo |
-| **Informe de Ads** | Pendiente | No usa IA | Pendiente | Siguiente |
+| **Informe de Ads** (`apps/informe-ads`) | Sí: HTML con los datos dentro | No usa IA | Sí: todo en el archivo | Funciona solo; falta subir datos nuevos sin Claude |
 | **Plantillas de mailing** (`entregables/mailing_nov`) | Sí: son imágenes PNG | — | Sí | Listo |
 
 ## Cómo se hizo el planificador (y cómo se hará el resto)
