@@ -33,6 +33,9 @@ Una cena en casa, una reunión con amigos, un regalo que tiene que quedar bien. 
 **14/11 · Burbujas para cada presupuesto**
 ¿Sesenta soles, trescientos o seiscientos? Para cualquiera de los tres hay burbujas. Un Riccadonna Prosecco a cincuenta y cinco. Un Gran Juvé, cava español, a doscientos setenta. Y un Veuve Clicquot a seiscientos. Dime cuánto quieres gastar este finde y yo te digo cuál abrir.
 
+**14/11 · Contraluz Reposado (nuevo ingreso)**
+Hay tequilas que se toman de un golpe y otros que se toman despacio. Contraluz Reposado es de los segundos. Acaba de llegar a Licorerías Unidas y está a doscientos veinticinco soles. Por ahora lo encuentras en nuestra tienda de Surco y en la web. Link en el perfil.
+
 **15/11 · La Casa del Ron**
 ¿Cuántas marcas de ron crees que tenemos? ¿Diez? ¿Veinte? Son más de treinta y cinco. Casi ciento cincuenta rones de Guatemala, Nicaragua, Venezuela, República Dominicana, Cuba, Barbados y más, desde el que va con la cola hasta el que se toma solo. Y si hay uno que buscas y no encuentras, escríbenos.
 
