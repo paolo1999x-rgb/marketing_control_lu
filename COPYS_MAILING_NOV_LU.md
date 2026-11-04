@@ -1,229 +1,201 @@
-# Copys de mailing · Licorerías Unidas · Noviembre 2026
+# Mailings · Noviembre 2026 · Licorerías Unidas (versión aprobada)
 
-Precios tomados del planificador (campaña CSI), del catálogo de vinos (precio venta vs. precio normal) y de lo que confirmaste. Stock revisado con el inventario del 03/11. Donde dice "antes", es el precio normal del catálogo, o sea un ahorro real.
+El texto va corto; los productos salen como tarjetas con foto, precio y botón.
 
-**Pie legal (va en todos):**
+## 05/11
 
-> Toma con responsabilidad. Prohibida la venta de bebidas alcohólicas a menores de 18 años.
-> [Darse de baja]
+- Asunto A: Luis Miguel llegó a Licorerías Unidas
+- Asunto B: Maluma, Luisito y Luis Miguel están en LU
+- Preheader: Bueno… sus botellas. Y acaban de llegar.
 
----
+Cuerpo:
 
-## 1. Jueves 05/11 · El chisme detrás de la botella
+Luis Miguel llegó a Licorerías Unidas.
+Bueno, su tequila. Y no vino solo: también llegó Gran Malo, el tequila de Luisito Comunica, y Contraluz, el mezcal cristalino de Maluma.
 
-- **Asunto A:** El tequila de Luisito Comunica ya llegó
-- **Asunto B:** Lo que Luisito Comunica toma, ahora en LU
-- **Preheader:** Gran Malo acaba de llegar a Licorerías Unidas.
+Tres botellas con nombre propio y tres estilos distintos: uno dulce y picante, uno suave y transparente, y un clásico de agave azul. Mira cuál va contigo.
 
-**Cuerpo:**
-
-Seguro lo viste en sus videos. Ahora lo tienes a un clic.
-
-Gran Malo es la marca de tequila de Luisito Comunica, y acaba de llegar a Licorerías Unidas. Tequila con tamarindo y un toque picante: para la previa, para compartir y para que alguien pregunte "¿y eso qué es?".
-
-**Recién llegado:**
 - Tequila Gran Malo Spicy Tamarindo 750 ml: S/ 100
+- Mezcal Contraluz Cristalino Reposado 700 ml: S/ 225
+- Tequila Don Ramón Plata edición Luis Miguel 750 ml
 
-- **CTA:** Ver Gran Malo en la web
-- **P.D.:** Recién llegó y por ahora está en la tienda de Surco y en la web.
+- CTA: Ver las tres en la web
+- P.D.: Son pocas unidades, sobre todo de la edición Luis Miguel.
 
----
 
-## 2. Viernes 06/11 · Recomendación de fin de semana
+## 06/11
 
-- **Asunto A:** Las 3 botellas que no pueden faltar en tu previa este viernes 🍸
-- **Asunto B:** Tu viernes empieza a las 5 (y el precio también)
-- **Preheader:** Descubre los recomendados de la semana en LU para tus reuniones.
+- Asunto A: Las 3 botellas que no pueden faltar en tu previa este viernes 🍸
+- Asunto B: Tu viernes empieza a las 5 (y el precio también)
+- Preheader: Descubre los recomendados de la semana en LU.
 
-**Cuerpo:**
+Cuerpo:
 
-Cierra la laptop, que el fin de semana arranca oficialmente.
+Cierra la laptop, que el finde ya arrancó.
+Para la previa de hoy, la cena con amigos o la parrilla del domingo, elegimos tres botellas que nunca fallan: un whisky para impresionar, un gin para los que prefieren algo fresco y un tinto argentino con S/ 160 de descuento.
 
-Si estás organizando la previa de hoy, una cena o la parrilla del domingo, te dejamos 3 etiquetas de nuestro catálogo que nunca fallan para quedar como el mejor anfitrión.
+Pídelas hoy y llegan a tu puerta.
 
-Los recomendados de la semana:
+- Whisky Johnnie Walker XR 21 años 750 ml: S/ 650
+- Gin Hendrick's 700 ml: S/ 110
+- Vino Gran Enemigo Agrelo 750 ml: antes S/ 450 · ahora S/ 290
 
-- **Whisky Johnnie Walker XR 21 años 750 ml:** S/ 650
-- **Gin Hendrick's 700 ml:** S/ 110
-- **Vino Gran Enemigo Agrelo 750 ml:** antes S/ 450 · ahora S/ 290
+- CTA: Explorar catálogo de fin de semana
 
-Haz tu pedido hoy desde la web y recíbelo directamente en tu puerta.
 
-- **CTA:** Explorar catálogo de fin de semana
+## 10/11
 
----
+- Asunto A: El ron que los maestros roneros guardan para ellos 🥃
+- Asunto B: Estos 3 rones no se toman con cola
+- Preheader: Tres botellas de La Casa del Ron para tomar despacio.
 
-## 3. Martes 10/11 · La Casa del Ron · tres rones especiales
+Cuerpo:
 
-- **Asunto A:** Para cuando el ron de siempre ya no basta
-- **Asunto B:** ¿Cuál fue el último ron que te sorprendió?
-- **Preheader:** Tres rones de La Casa del Ron que se toman despacio.
+Hay rones para la fiesta y rones para la sobremesa.
+Estos son de los segundos: la reserva de los maestros roneros de Brugal y dos ediciones especiales de Zacapa que no se ven en cualquier bar.
 
-**Cuerpo:**
+Sírvelos solos y tómatelos sin apuro.
 
-Si el último ron que probaste no te sorprendió, este correo es para ti.
+- Ron Brugal Maestro Reserva 700 ml: S/ 1,499
+- Ron Zacapa La Pasión Heavenly Cask Collection 700 ml: S/ 499
+- Ron Zacapa Edición Negra 750 ml: S/ 550
 
-En La Casa del Ron elegimos tres botellas con historia: una reserva de maestros roneros y dos ediciones especiales de Zacapa.
+- CTA: Ver La Casa del Ron en la web
 
-**La selección:**
-- **Ron Brugal Maestro Reserva 700 ml:** S/ 1,499. Reserva de la familia maestra ronera de Brugal.
-- **Ron Zacapa La Pasión Heavenly Cask Collection 700 ml:** S/ 499
-- **Ron Zacapa Edición Negra 750 ml:** S/ 550
 
-- **CTA:** Ver La Casa del Ron en la web
+## 12/11
 
----
+- Asunto A: El whisky que se hizo para una reina 👑
+- Asunto B: ¿Whisky de reina o whisky fantasma?
+- Preheader: Dos leyendas escocesas, dos historias que no te contaron.
 
-## 4. Jueves 12/11 · ¿Cuál cuesta más?
+Cuerpo:
 
-- **Asunto A:** Uno cuesta cientos de soles más. ¿Adivinas cuál?
-- **Asunto B:** Royal Salute 21 o Blue Label: ¿cuál pagarías?
-- **Preheader:** Dos leyendas escocesas frente a frente.
+En 1953 se coronó una reina, y para celebrarlo se creó un whisky.
+Ese es el Royal Salute 21, en su botella de porcelana color zafiro. Su rival, el Blue Label, guarda otro secreto: en su mezcla hay whiskies de destilerías que ya no existen.
 
-**Cuerpo:**
+Una nació para la realeza; la otra rescata sabores que ya no se fabrican. ¿Con cuál brindas?
 
-Dos botellas. Dos leyendas. Una cuesta bastante más que la otra.
+- Whisky Chivas Royal Salute 21 años 700 ml: S/ 699
+- Whisky Johnnie Walker Blue Label 750 ml: S/ 870
 
-**Chivas Royal Salute 21 años:** nació en 1953 para la coronación de la reina Isabel II. Su botella es de porcelana color zafiro, como las piedras de la corona.
+- CTA: Ver las dos en la web
 
-**Johnnie Walker Blue Label:** no declara edad. Su secreto es una mezcla de whiskies muy escasos, algunos de destilerías que ya cerraron.
 
-¿Cuál crees que cuesta más?
+## 13/11
 
-- **CTA:** Ver la respuesta en la web
-- **Al hacer clic:** Johnnie Walker Blue Label S/ 870 · Chivas Royal Salute 21 años S/ 699. Los S/ 171 de diferencia los pone la escasez, no la edad.
+- Asunto A: El regalo de fin de año, resuelto antes que todos 🎁
+- Asunto B: Regalos que se ven caros (porque lo son)
+- Preheader: Tres botellas para quedar bien sin pensarlo dos veces.
 
----
+Cuerpo:
 
-## 5. Viernes 13/11 · Packs de fin de semana
+Diciembre llega rápido, y el apuro por el regalo, más.
+Adelántate con tres botellas que impresionan desde la caja: un tequila en botella de cerámica pintada a mano, un whisky japonés de edición limitada y el único blended malt de Chivas.
 
-- **Asunto A:** Packs armados para este finde
-- **Asunto B:** ¿Reunión a la vista? El regalo ya viene incluido
-- **Preheader:** Vinos argentinos con copas o decantador de regalo.
+El regalo ya está. Tú solo eliges a quién.
 
-**Cuerpo:**
+- Tequila Clase Azul Reposado 750 ml: S/ 1,240
+- Whisky Hibiki Master's Select Limited Edition 700 ml: S/ 1,750
+- Whisky Chivas Regal Ultis 750 ml: S/ 799
 
-Tu reunión resuelta en un solo pedido, y con regalo.
+- CTA: Ver regalos en la web
 
-- **Pack Gran Enemigo Gualtallary:** 3 botellas + 3 copas de cristal o 1 decantador (tú eliges). S/ 1,110. Cada botella sale a S/ 370 (precio normal S/ 510).
-- **Pack Catena Zapata Malbec Argentino:** 3 botellas + 3 copas de cristal o 1 decantador. S/ 1,170.
 
-- **CTA:** Ver packs en la web
+## 17/11
 
----
+- Asunto A: Tu nombre puede estar en dos pasajes a Mendoza ✈️
+- Asunto B: 2 pasajes a Mendoza. ¿Con quién irías?
+- Preheader: Sorteamos un viaje para dos. Participas hasta el 31/12.
 
-## 6. Martes 17/11 · Destino Mendoza
+Cuerpo:
 
-- **Asunto A:** Te podemos llevar a Mendoza. Así participas
-- **Asunto B:** Un viaje para dos a Mendoza empieza en LU
-- **Preheader:** Del 15 de noviembre al 31 de diciembre.
+Imagínate en febrero: viñedos, montañas y una copa de Malbec en la mano.
+Ese es el premio de DESTINO MENDOZA: un viaje para dos personas a Mendoza, Argentina. Puedes participar del 15 de noviembre al 31 de diciembre.
 
-**Cuerpo:**
+Tú pones la compañía. Las bases te dicen cómo entrar.
 
-Viñedos, montañas y la cordillera de los Andes de fondo.
+- CTA: Ver cómo participar
 
-**DESTINO MENDOZA** es la nueva campaña de Licorerías Unidas. El premio es un viaje para dos personas a Mendoza, Argentina, previsto para febrero de 2027.
 
-- **Vigencia:** del 15 de noviembre al 31 de diciembre de 2026.
-- **Premio:** viaje para dos personas a Mendoza.
-- **Cómo participar:** todo está en las bases oficiales.
+## 19/11
 
-- **CTA:** Ver bases en la web
+- Asunto A: Lo estás tomando en la copa equivocada 🍷
+- Asunto B: Tu vino favorito puede saber mejor esta noche
+- Preheader: Un cambio de 10 segundos y el mismo vino sabe distinto.
 
----
+Cuerpo:
 
-## 7. Jueves 19/11 · El error que todos cometen
+¿Te ha pasado que un vino te encantó en el restaurante y en casa no sabía igual?
+No era el vino: era la copa. El tinto necesita espacio para respirar, el blanco una copa pequeña que lo mantenga frío y el espumante una alta para no perder la burbuja.
 
-- **Asunto A:** El error que arruina un vino de S/100 (y no es el vino)
-- **Asunto B:** Tu vino está bien. El problema es la copa
-- **Preheader:** Un cambio de 10 segundos que cambia todo el sabor.
+Haz la prueba esta noche.
 
-**Cuerpo:**
+- Vino Gran Enemigo Gualtallary 750 ml: antes S/ 510 · ahora S/ 370
+- Vino El Enemigo Chardonnay 750 ml: antes S/ 110 · ahora S/ 95
+- Espumante Chandon Extra Brut 750 ml: S/ 62
 
-Compraste un buen vino, lo serviste y… nada especial. Probablemente fue la copa.
+- CTA: Ver vinos en la web
 
-- **Tinto:** copa ancha. El vino necesita aire para soltar sus aromas.
-- **Blanco y rosado:** copa más pequeña. Mantiene el frío y la frescura.
-- **Espumante:** copa alta y delgada (flauta). Conserva la burbuja.
 
-Bonus: en Lima el tinto no se sirve "al tiempo". Un poco fresco (16–18 °C) sabe mucho mejor.
+## 20/11
 
-Ahora que ya sabes servirlo:
-- **Tinto · Gran Enemigo Gualtallary 750 ml:** antes S/ 510 · ahora S/ 370
-- **Blanco · El Enemigo Chardonnay 750 ml:** antes S/ 110 · ahora S/ 95
-- **Espumante · Chandon Extra Brut 750 ml:** S/ 62
+- Asunto A: ¿Brindis de S/ 55 o de S/ 600? Los dos valen 🥂
+- Asunto B: Hay una burbuja para cada plan del finde
+- Preheader: Prosecco, cava o champagne: depende de lo que celebres.
 
-- **CTA:** Ver vinos en la web
+Cuerpo:
 
----
+No todos los brindis piden lo mismo.
+Un prosecco fresco para la previa con amigos, un cava para la cena que quieres que salga bien y un champagne para cuando de verdad hay algo que celebrar.
 
-## 8. Viernes 20/11 · Espumantes de fin de semana
+¿Qué toca este finde?
 
-- **Asunto A:** Champagne, cava o prosecco: ¿cuál descorchas este finde?
-- **Asunto B:** No todas las burbujas son champagne
-- **Preheader:** La diferencia en 3 líneas, desde S/ 55.
+- Prosecco Riccadonna 750 ml: S/ 55
+- Cava Juvé & Camps Gran Juvé 750 ml: S/ 270
+- Champagne Veuve Clicquot Brut + estuche Arrow 750 ml: S/ 600
 
-**Cuerpo:**
+- CTA: Ver espumantes en la web
 
-Todos les dicen champagne, pero no todos lo son.
 
-- **Champagne:** solo si viene de Champagne, Francia. Elegante y con burbuja fina.
-- **Cava:** de España, hecho con el mismo método que el champagne. Gran calidad por menos.
-- **Prosecco:** de Italia. Fresco, frutal y fácil de tomar.
+## 24/11
 
-Elige el tuyo:
-- **Champagne · Veuve Clicquot Brut + estuche Arrow 750 ml:** S/ 600
-- **Cava · Juvé & Camps Gran Juvé 750 ml:** S/ 270
-- **Prosecco · Riccadonna Prosecco 750 ml:** S/ 55
+- Asunto A: 🔒 Algo se desbloquea el viernes 27
+- Asunto B: Te guardamos un lugar en primera fila
+- Preheader: No podemos decir qué. Solo cuándo.
 
-- **CTA:** Ver espumantes en la web
+Cuerpo:
 
----
+Viernes 27. Pon una alarma.
+No podemos contarte más todavía. Lo que sí podemos decirte es que este año los primeros en enterarse son los que están en esta lista.
 
-## 9. Martes 24/11 · Pre Black Friday
+Nos vemos el viernes.
 
-- **Asunto A:** El viernes pasa algo. Te avisamos primero a ti
-- **Asunto B:** Guarda la fecha: viernes 27
-- **Preheader:** Todavía no podemos contarte más. Solo te pedimos una cosa.
+- CTA: Visitar la web
 
-**Cuerpo:**
 
-Este correo no tiene precios. Todavía.
+## 26/11
 
-El **viernes 27 de noviembre** llega el Black Friday a Licorerías Unidas, y quienes están en esta lista se enteran primero.
+- Asunto A: Mañana es el día. ¿Ya tienes tu carrito listo? 🛒
+- Asunto B: Faltan horas para Black Friday en LU
+- Preheader: Arma tu carrito hoy y mañana solo pagas.
 
-Lo único que te pedimos: ese día revisa tu correo.
+Cuerpo:
 
-- **CTA:** Visitar la web
+Mañana es Black Friday en Licorerías Unidas.
+El truco para no perderte nada: entra hoy, deja tus botellas favoritas en el carrito y, cuando se activen los precios, solo te queda pagar.
 
----
+- CTA: Armar mi carrito
 
-## 10. Jueves 26/11 · El plan ya armado
 
-- **Asunto A:** Mañana es Black Friday: el brindis ya lo tienes
-- **Asunto B:** Mañana se abre. Hoy elige con qué brindar
-- **Preheader:** Arma tu lista hoy y compra mañana a primera hora.
+## 27/11
 
-**Cuerpo:**
+- Asunto A: Ya empezó. Hasta las 23:59
+- Asunto B: Black Friday en LU: hoy y solo hoy
 
-Mañana empieza el Black Friday en LU.
+Cuerpo:
 
-El consejo de hoy: arma tu lista ahora para no perder tiempo mañana. Y si vas a brindar en las fiestas, empieza por las burbujas:
+Va aparte: se arma con las condiciones comerciales de Black Friday.
 
-- Espumante Chandon Extra Brut 750 ml
-- Champagne Moët & Chandon Impérial 750 ml
-- Cava Juvé & Camps Gran Juvé 750 ml
+- CTA: Ver ofertas en la web
 
-Mañana te enviamos los precios apenas se activen.
-
-- **CTA:** Ver espumantes en la web
-
----
-
-## 11. Viernes 27/11 · Black Friday
-
-Va aparte: se arma con las definiciones comerciales de Black Friday.
-
-- **Asunto A:** Ya empezó. Hasta las 23:59
-- **Asunto B:** Black Friday en LU: hoy y solo hoy
-- **CTA:** Ver ofertas en la web
