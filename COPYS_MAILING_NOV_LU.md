@@ -16,7 +16,7 @@ Tres botellas con nombre propio y tres estilos distintos: uno dulce y picante, u
 
 - Tequila Gran Malo Spicy Tamarindo 750 ml: S/ 100
 - Mezcal Contraluz Cristalino Reposado 700 ml: S/ 225
-- Tequila Don Ramón Plata edición Luis Miguel 750 ml
+- Tequila Don Ramón Plata edición Luis Miguel 750 ml: S/ 859
 
 - CTA: Ver las tres en la web
 - P.D.: Son pocas unidades, sobre todo de la edición Luis Miguel.
