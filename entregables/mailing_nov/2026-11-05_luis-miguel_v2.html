@@ -8,6 +8,7 @@
 <style>
   body{margin:0;padding:0;background:#000000}
   a{text-decoration:none}
+  .unsub a{color:#9A9A9A!important;text-decoration:underline!important}
   @media (max-width:620px){
     .wrap{width:100%!important}
     .h1{font-size:28px!important;line-height:32px!important}
@@ -104,7 +105,7 @@
   <tr><td align="center" style="padding:20px 30px 44px;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:22px;color:#9A9A9A">
     licoreriasunidas.pe · Lima, Perú<br>
     Recibes este correo porque te suscribiste en Licorerías Unidas.<br>
-    <a href="https://licoreriasunidas.pe/policies/privacy-policy" style="color:#9A9A9A;text-decoration:underline">Política de privacidad</a> | <a href="{{ unsubscribe_link }}" style="color:#9A9A9A;text-decoration:underline">Cancelar suscripción</a>
+    <a href="https://licoreriasunidas.pe/policies/privacy-policy" style="color:#9A9A9A;text-decoration:underline">Política de privacidad</a> | <span class="unsub" style="color:#9A9A9A">{{ unsubscribe_link }}</span>
   </td></tr>
 
 </table>
