@@ -33,6 +33,18 @@ Usa este documento para redactar el copy completo de cada mailing de noviembre. 
   4. **El error que todos cometen:** copa, temperatura, hielo…
   5. **El plan ya armado:** "tu viernes en 3 botellas", con qué acompañar y cuánto sale.
 
+## 2b. Regla del asunto (pedida por Paolo, 06/11/2026) · SIEMPRE
+
+**El asunto tiene que "chapar": que la persona sienta que necesita abrir el correo.** Se escribe primero, antes que el cuerpo, y se trabaja con el método de Temu. No describe el contenido; crea la necesidad de abrirlo.
+
+- **Deja algo sin resolver:** una pregunta, un "adivina", un dato a medias. No "Las 3 botellas de tu previa", sino "¿Ya tienes la previa de hoy? 👀".
+- **Concreto:** un número, un precio ("desde S/ 55") o un "hoy". Lo vago no se abre.
+- **Corto:** máximo 45 caracteres, para que el celular no lo corte.
+- **Personal:** "tu", "para ti", "tu noche".
+- **Un solo emoji**, al final.
+- **Urgencia solo si es real:** una fecha límite verdadera o un stock verdadero. Nunca "últimas unidades" inventado.
+- **Siempre se entregan 3 opciones:** una que se aplica (la mejor) y dos para el test A/B.
+
 ## 3. Estructura de cada mailing
 
 Entrega para cada uno:
