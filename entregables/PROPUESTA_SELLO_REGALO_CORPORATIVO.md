@@ -13,21 +13,36 @@ No lo hacemos al pie de la letra: lo adaptamos a lo que LU puede entregar de ver
 |---|---|
 | "Crea una marca X" | **Sello**: una línea de regalo corporativo de LU. Frase: *"Tu marca, en cada brindis."* |
 | Personalizados con logo o nombres | **Etiqueta personalizada** en la botella (logo o nombre), más **tarjeta con mensaje** y **estuche**. No se dice "grabado", porque la etiqueta se imprime y se pega |
-| En diferentes botellas | **3 niveles de precio con 2 o 3 botellas cada uno**, del catálogo real. No todo el catálogo |
+| En diferentes botellas | Las que **más salen**: espumantes, champagne y whisky. No todo el catálogo |
+| (Decisión de Paolo) | Personalización **sin costo** y productos **sin descuento** |
 | "Que impacte" | **Video corto con una muestra real** y **maqueta con el logo de la empresa en 24 horas** |
 | "Que perdure, que se guarde" | El **estuche y la tarjeta** son lo que se guarda. No se promete "para siempre" |
 
-## 2. Lo que se vende: tres niveles
+## 2. Lo que se vende: lo que más se lleva la gente
 
-Precios de la web al 17/11. **El costo de la personalización, el mínimo y la entrega los define Mariano [DATO].**
+**Regla comercial (decidida por Paolo):** la personalización va **sin costo** y los productos se venden **al precio normal, sin descuento**. La personalización es lo que nos diferencia, no el precio.
 
-| Nivel | Botellas | Precio sin personalizar |
-|---|---|---:|
-| **Esencial** (hasta S/ 300) | Chivas Regal 18 años · Gran Juvé (cava) | S/ 235 · S/ 270 |
-| **Selecto** (S/ 400 a 600) | Veuve Clicquot Brut · Zacapa XO · Macallan Double Cask 12 | S/ 375 · S/ 445 · S/ 510 |
-| **Reserva** (S/ 800 o más) | Johnnie Walker Blue Label · Dom Pérignon Vintage | S/ 870 · S/ 1,300 |
+Elegí los productos que más salen en espumantes, champagne y whisky. Precios de la web al 17/11; unidades vendidas del reporte del 19/09 al 16/11.
 
-Además, **packs por cantidad** (por ejemplo 6 o 12 botellas de Riccadonna, o el pack Asti de 7 etiquetas) para equipos grandes.
+| Categoría | Botellas | Precio | Ventas del periodo |
+|---|---|---:|---|
+| **Espumantes** | Riccadonna (Ruby, Asti, Moscato Rosé) | ≈ S/ 55 (*) | 98 botellas |
+| | Chandon Extra Brut | S/ 62 | 30 botellas |
+| | Cava Juvé & Camps Essential Púrpura | S/ 59.90 | 29 botellas |
+| **Champagne** | Moët & Chandon Brut Imperial | S/ 350 | — |
+| | Veuve Clicquot Brut 750 ml | S/ 375 | 2 botellas, una de ellas con personalizado |
+| | Veuve Clicquot Brut 1.5 L | S/ 899.90 | 4 botellas |
+| | Dom Pérignon Vintage | S/ 1,300 | se repite en diciembre |
+| **Whisky** | Johnnie Walker Gold Label Reserve | S/ 185 | 70 botellas |
+| | Glenfiddich 12 / Glenfiddich 18 | S/ 149 / S/ 375 | 16 / 17 botellas |
+| | Chivas Regal 18 años | S/ 235 | 20 botellas (con y sin personalizado) |
+| | Johnnie Walker Blue Label | S/ 870 | 28 botellas |
+
+(*) Promedio del reporte de ventas; verificar en la web.
+
+Además, **packs por cantidad** para equipos grandes: por ejemplo 6 o 12 botellas de Riccadonna (el pack × 12 está a S/ 576, y a S/ 600 el Ruby) o el pack Asti de 7 etiquetas.
+
+**Como la personalización es gratis, hace falta un mínimo** para que no nos cueste de más: propongo una cantidad mínima de botellas por pedido para ofrecerla incluida **[DATO: lo fija Mariano según el costo de impresión]**.
 
 ## 3. Cómo funciona para la empresa
 
@@ -41,7 +56,7 @@ Además, **packs por cantidad** (por ejemplo 6 o 12 botellas de Riccadonna, o el
 
 | # | Pieza | Para quién | Gancho | Formato |
 |---|---|---|---|---|
-| 1 | **Carrusel "Sello"** | Quien regala a su equipo o a sus clientes | *"Tu logo en la botella que van a abrir."* | Portada + 8 tarjetas: 7 botellas con maqueta ("tu logo aquí") y 1 tarjeta de "Cómo funciona" |
+| 1 | **Carrusel "Sello"** | Quien regala a su equipo o a sus clientes | *"Tu logo en la botella que van a abrir."* | Portada + 8 tarjetas: 7 botellas con maqueta ("tu logo aquí"), de espumante a whisky, y 1 tarjeta de "Cómo funciona" con "personalización incluida" |
 | 2 | **Video del proceso** | Quien duda de la calidad | *"Así llega tu logo a la botella."* | 15 a 20 segundos, muestra real, sin voz con precios |
 | 3 | **Estático "Maqueta"** | Quien ya sabe qué quiere | *"Mándanos tu logo y te mostramos cómo queda."* | 4:5 o 1:1 |
 | 4 | **Mailing a empresas que ya nos compraron** | Clientes corporativos previos | Mismo mensaje que el carrusel | Lista de compradores con razón social [DATO] |
@@ -79,7 +94,8 @@ Reglas: sin precio en el texto del anuncio, sin escasez inventada, sin prometer 
 - **La etiqueta puede verse barata.** Por eso hay que probar con muestras antes de gastar en anuncios.
 - **Prometer una entrega que no se cumple.** La fecha límite la confirma Mariano.
 - **Pedidos muy grandes que no podamos producir a tiempo.** Hay que fijar un máximo de botellas [DATO].
-- **Precios por encima de la competencia** en algunos productos (por ejemplo Veuve, Zacapa XO y Blue Label frente a Licorerías.com.pe). En regalo corporativo pesa más la personalización que el precio, pero conviene revisarlo.
+- **Precios por encima de la competencia** en algunos productos (Licorerías.com.pe está unos 5 a 10 % más barato en Gold Label, Veuve y Riccadonna). Como no bajamos precios, el argumento es la personalización incluida; si la empresa solo compara precio, perdemos esa venta.
+- **La personalización gratis tiene un costo** para LU. Sin un mínimo de botellas, un pedido chico puede costar más de lo que deja.
 
 ## 9. Lo que necesito confirmar
 
@@ -89,6 +105,6 @@ Reglas: sin precio en el texto del anuncio, sin escasez inventada, sin prometer 
 
 **Mariano**
 1. ¿Quién imprime y pega la etiqueta? ¿Se hace con logo o solo con nombre?
-2. Costo extra por botella, mínimo de botellas y tiempo de entrega antes de Navidad.
+2. **Costo interno** de imprimir y pegar la etiqueta, **mínimo de botellas** para ofrecerla incluida, y tiempo de entrega antes de Navidad.
 3. ¿Podemos tener 2 botellas de muestra esta semana?
 4. Stock de las botellas de los tres niveles.
