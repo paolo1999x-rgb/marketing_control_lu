@@ -10,7 +10,7 @@ Un anuncio que se desliza: una portada con gancho y luego tarjetas, cada una con
 ## 2. Dos formas de hacerlo
 | | A. Carrusel diseñado (recomendada) | B. Colección con catálogo (como Metro) |
 |---|---|---|
-| Qué es | 5 a 7 tarjetas hechas por Jean, con enlace por tarjeta | Portada + productos que Meta jala de un catálogo |
+| Qué es | portada + 7 tarjetas hechas por Jean, con enlace por tarjeta | Portada + productos que Meta jala de un catálogo |
 | Necesita | Imágenes diseñadas y URLs | Catálogo en Meta (hoy no existe) y feed con imágenes diseñadas |
 | Tiempo | Inmediato | Días de armado |
 | Riesgo | Precio fijo en la imagen: si cambia, se rehace | Precio se actualiza solo |
@@ -30,12 +30,18 @@ Un anuncio que se desliza: una portada con gancho y luego tarjetas, cada una con
 
 | # | Tarjeta | Precio |
 |---|---|---:|
-| 1 | Portada: "Los vinos que regala quien sabe" (propuesta) | — |
-| 2 | Gran Juvé (cava) | S/ 270 |
-| 3 | Gran Enemigo Blend | S/ 290 (antes 360) |
-| 4 | Gran Enemigo Gualtallary | S/ 370 |
-| 5 | Catena Malbec | S/ 399 |
-| 6 | Catena Zapata River Stones | S/ 750 |
+| 1 | Portada: "Los vinos y burbujas que regala quien sabe" (propuesta) | — |
+| 2 | Espumante Chandon Extra Brut | S/ 62 (antes 70) |
+| 3 | Cava Gran Juvé & Camps | S/ 270 (antes 291) |
+| 4 | Gran Enemigo Blend | S/ 290 (antes 360) |
+| 5 | Champagne Moët & Chandon Imperial | S/ 350 (antes 395) |
+| 6 | Champagne Veuve Clicquot Brut | S/ 375 (antes 475) |
+| 7 | Catena Zapata Malbec Argentino | S/ 399 (antes 450) |
+| 8 | Catena Zapata River Stones | S/ 750 (antes 1,100) |
+
+Criterio: marcas que el cliente ya reconoce y botellas con etiqueta o silueta que se vean bien recortadas sobre fondo de marca. Precios verificados en la web el 17/11. Se pueden cambiar tarjetas, pero el orden va de menos a más.
+
+*Corrección: antes puse "Catena Malbec S/ 399". Ese precio es del Catena **Zapata** Malbec; el Catena Malbec normal cuesta S/ 78.90.*
 
 Variante para empresas: Petit Arcángeles (S/ 2,500), cajas de espumantes, botón de cotizar.
 
