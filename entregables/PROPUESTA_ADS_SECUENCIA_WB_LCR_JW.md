@@ -26,7 +26,7 @@ Un anuncio que se desliza: una portada con gancho y luego tarjetas, cada una con
 - Sin mención de grabado ni personalización, sin escasez inventada.
 
 ## 4. Wine Bank
-**Objetivo:** subir ticket sobre un conjunto que ya rinde ≈11x. Va dentro del conjunto Vinos.
+**Objetivo:** subir ticket sobre un conjunto que ya rinde ≈11x. Va dentro del conjunto Vinos. El Cofre Arcángeles queda fuera: se trabaja aparte.
 
 | # | Tarjeta | Precio |
 |---|---|---:|
@@ -36,9 +36,8 @@ Un anuncio que se desliza: una portada con gancho y luego tarjetas, cada una con
 | 4 | Gran Enemigo Gualtallary | S/ 370 |
 | 5 | Catena Malbec | S/ 399 |
 | 6 | Catena Zapata River Stones | S/ 750 |
-| 7 | Cofre Arcángeles 7×750 ml | S/ 4,500 (antes 5,600) |
 
-Variante para empresas: Cofre Arcángeles, Petit Arcángeles (S/ 2,500), cajas de espumantes, botón de cotizar.
+Variante para empresas: Petit Arcángeles (S/ 2,500), cajas de espumantes, botón de cotizar.
 
 ## 5. La Casa del Ron
 **Objetivo:** subir ticket. El carrusel convive mejor que el video con el ron barato, porque ordena de menos a más.
