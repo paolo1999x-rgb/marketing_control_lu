@@ -31,7 +31,7 @@ Elegí los productos que más salen en espumantes, champagne y whisky. Precios d
 | | Cava Juvé & Camps Essential Púrpura | S/ 59.90 | 29 botellas |
 | **Champagne** | Moët & Chandon Brut Imperial | S/ 350 | — |
 | | Veuve Clicquot Brut 750 ml | S/ 375 | 2 botellas, una de ellas con personalizado |
-| | Moët & Chandon Brut Imperial 1.5 L (formato grande) | S/ 850 (antes S/ 900) | — |
+| | Veuve Clicquot Brut 1.5 L (formato grande) | S/ 899.90 | 4 botellas |
 | | Dom Pérignon Vintage | S/ 1,300 | se repite en diciembre |
 | **Whisky** | Johnnie Walker Gold Label Reserve | S/ 185 | 70 botellas |
 | | Glenfiddich 12 / Glenfiddich 18 | S/ 149 / S/ 375 | 16 / 17 botellas |
