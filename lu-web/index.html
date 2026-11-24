@@ -7331,6 +7331,14 @@ R.addEventListener('click',function(e){var b=e.target.closest('.lu-acc__btn');if
 #lu-ed .ed-chk input{width:16px;height:16px;accent-color:#000}
 #lu-ed .ed-row{display:flex;gap:8px;flex-wrap:wrap}
 #lu-ed .ed-h3{margin:4px 0 14px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+#lu-ed .ed-kind{border:0;padding:0;margin:0 0 16px}
+#lu-ed .ed-opt{display:flex;gap:10px;align-items:flex-start;padding:12px;border:1px solid #ddd;margin:0 0 8px;cursor:pointer;font-size:12px;line-height:1.4;color:#666}
+#lu-ed .ed-opt b{display:block;font-size:13px;color:#1a1a1a;margin-bottom:2px}
+#lu-ed .ed-opt input{margin-top:2px;accent-color:#000;width:16px;height:16px;flex:none}
+#lu-ed .ed-opt{display:flex!important;flex-direction:row!important;align-items:flex-start!important}
+#lu-ed .ed-opt input{display:inline-block!important;position:static!important;appearance:auto!important;-webkit-appearance:radio!important;opacity:1!important;margin:2px 0 0!important}
+#lu-ed .ed-opt>span{flex:1;display:block}
+#lu-ed .ed-opt:has(input:checked){border-color:#000;background:#fafafa}
 #lu-ed .ed-sep{height:1px;background:#eee;margin:18px 0}
 #lu-ed input[type=file]{font-size:12px;max-width:100%}
 @media (max-width:520px){#lu-ed .ed-bd,#lu-ed .ed-hd,#lu-ed .ed-ft{padding-left:16px;padding-right:16px}}
@@ -7541,7 +7549,7 @@ function bannerForm(e){var b=e.item;
 function popForm(e){var p=e.item;
   return'<h3 class="ed-h3">'+(e.isNew?'Nuevo pop-up':'Editar pop-up')+'</h3>'+
   '<div class="ed-f"><label for="ed-nm">Nombre (solo para ti)</label><input type="text" id="ed-nm" value="'+esc(p.name)+'"><span class="ed-hint">Nombre interno para enlazarlo desde un botón: <b>popup:'+esc(p.id)+'</b></span></div>'+
-  (e.isNew?'<div class="ed-f"><label for="ed-kind">Tipo</label><select id="ed-kind"><option value="info"'+(p.kind==='info'?' selected':'')+'>Promoción con botón</option><option value="email"'+(p.kind==='email'?' selected':'')+'>Captura de correo</option></select></div>':'')+
+  (p.src==='dom'?'':'<fieldset class="ed-f ed-kind"><legend class="ed-lb">Tipo de pop-up</legend><label class="ed-opt"><input type="radio" name="ed-kind" value="info"'+(p.kind!=='email'?' checked':'')+'><span><b>Promoción con botón</b>Imagen, texto y un botón que lleva a una página.</span></label><label class="ed-opt"><input type="radio" name="ed-kind" value="email"'+(p.kind==='email'?' checked':'')+'><span><b>Captura de correo</b>Imagen, texto y un campo para que el cliente deje su correo.</span></label></fieldset>')+
   imgField('ed-i','Imagen',e.isNew&&!p.img?'':popImg(p),'Recomendado: 1500 × 520 px (horizontal).')+
   '<div class="ed-f"><label for="ed-ti">Título</label><input type="text" id="ed-ti" value="'+esc(p.title)+'"></div>'+
   '<div class="ed-f"><label for="ed-tx">Texto</label><textarea id="ed-tx">'+esc(p.text)+'</textarea></div>'+
@@ -7553,6 +7561,7 @@ function popForm(e){var p=e.item;
   '<label class="ed-chk"><input type="checkbox" id="ed-inb"'+(p.inBtn?' checked':'')+'> Mostrar con el botón 15% OFF del encabezado</label>'+
   '<div class="ed-sep"></div><div class="ed-row"><button type="button" class="ed-btn" data-a="save">Guardar</button><button type="button" class="ed-btn sec" data-a="preview">Vista previa</button><button type="button" class="ed-btn sec" data-a="cancel">Cancelar</button></div>'}
 function bindForm(){
+  $$('input[name=ed-kind]',BODY).forEach(function(r){r.addEventListener('change',function(){collect();var keep=editing;draw();editing=keep;var f=$('input[name=ed-kind]:checked',BODY);f&&f.focus()})});
   var lk=$('#ed-lk',BODY);if(lk)lk.addEventListener('change',function(){$('#ed-urlw',BODY).hidden=lk.value!=='__url'});
   [['ed-d','d',1920],['ed-m','m',1000],['ed-i','img',1500]].forEach(function(x){var inp=$('#'+x[0],BODY);if(!inp)return;
     inp.addEventListener('change',function(){var f=inp.files&&inp.files[0];if(!f)return;readImg(f,x[2]).then(function(u){editing.item[x[1]]=u;var pv=$('#'+x[0]+'-pv',BODY);if(pv.tagName!=='IMG'){var im=document.createElement('img');im.id=pv.id;im.alt='';pv.replaceWith(im);pv=im}pv.src=u}).catch(function(err){note(err.message,true);var keep=editing;draw();editing=keep})})});}
@@ -7560,7 +7569,7 @@ function collect(){var it=editing.item,v=function(id){var el=$('#'+id,BODY);retu
   it.name=v('ed-nm').trim()||it.name;
   if(tab==='b'){it.alt=v('ed-alt').trim();it.btn=v('ed-btn').trim();it.link=readLink();var ps=$('#ed-pos',BODY);if(ps)it.pos=ps.value;it.active=$('#ed-act',BODY).checked;
     if(editing.isNew&&!it.d)return'Sube la imagen para computadora.';if(!it.m&&it.d&&it.src!=='dom')it.m=it.d}
-  else{var kd=$('#ed-kind',BODY);if(kd)it.kind=kd.value;it.title=v('ed-ti').trim();it.text=v('ed-tx').trim();it.btn=v('ed-btn').trim();if(it.kind!=='email')it.link=readLink();
+  else{var kd=$('input[name=ed-kind]:checked',BODY);if(kd)it.kind=kd.value;it.title=v('ed-ti').trim();it.text=v('ed-tx').trim();it.btn=v('ed-btn').trim();if(it.kind!=='email')it.link=readLink();
     it.active=$('#ed-act',BODY).checked;it.auto=$('#ed-auto',BODY).checked;var d=parseInt(v('ed-dl'),10);it.delay=isNaN(d)?5:Math.max(0,Math.min(120,d));it.inBtn=$('#ed-inb',BODY).checked;
     if(!it.title&&!it.text&&!popImg(it))return'Agrega al menos una imagen, un título o un texto.'}
   if(it.link&&it.link.indexOf('popup:')!==0&&/^\s*javascript:/i.test(it.link))return'Ese enlace no está permitido.';
