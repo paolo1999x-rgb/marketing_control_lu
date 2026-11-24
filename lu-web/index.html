@@ -7340,6 +7340,7 @@ R.addEventListener('click',function(e){var b=e.target.closest('.lu-acc__btn');if
 #lu-root .lu-cslide .slideshow__text-wrapper{pointer-events:none}
 #lu-root .lu-cslide .content-box{pointer-events:auto}
 #lu-root .lu-cslide .slideshow__slide-inner{align-items:flex-end}
+#lu-root .lu-nl-msg{margin:12px 0 0;font-size:13px;line-height:1.5}
 #lu-ed button{font-family:var(--text-font-family,Arial,sans-serif);text-decoration:none;text-align:center;margin:0;box-shadow:none}
 #lu-ed .ed-x{padding:0;font:300 26px/1 Arial,sans-serif;border:0}
 #lu-ed .ed-tab{padding:0 8px}
@@ -7457,6 +7458,9 @@ function popEl(p){
   if(!el){el=document.createElement('modal-content');el.className='modal lu-cpop';el.id=p.id;
     el.innerHTML='<div class="modal__overlay"></div><div class="modal__content" role="dialog" aria-modal="true"><button class="modal__close-button tap-area" data-action="close" title="Cerrar" type="button"><svg class="icon icon--close" focusable="false" height="14" viewBox="0 0 14 14" width="14"><path d="M13 13L1 1M13 1L1 13" fill="none" stroke="currentColor" stroke-width="1.1"></path></svg></button><div class="newsletter-modal newsletter-modal--hero"><img class="newsletter-modal__image" alt=""><div class="newsletter-modal__content text-container text--center"><h2 class="heading h5"></h2><p></p><div class="button-wrapper"><a class="button button--primary button--full" href="#"></a></div></div></div></div>';
     R.appendChild(el);}
+  if(el.classList.contains('lu-cpop')){var bw0=$('.button-wrapper',el),fm=$('.newsletter-modal__form',el);
+    if(p.kind==='email'&&!fm){fm=document.createElement('form');fm.className='form newsletter-modal__form';fm.setAttribute('novalidate','');fm.innerHTML='<div class="input"><input class="input__field" type="email" name="email" id="'+p.id+'-em" required autocomplete="email"><label class="input__label" for="'+p.id+'-em">Su e-mail</label></div><div class="input"><button class="button button--primary button--full" type="submit"><span class="loader-button__text"></span></button></div>';bw0.parentNode.insertBefore(fm,bw0)}
+    if(fm)fm.hidden=p.kind!=='email';if(bw0&&p.kind==='email')bw0.hidden=true}
   var img=$('.newsletter-modal__image',el);if(img){if(p.img)img.setAttribute('src',p.img);img.hidden=!popImg(p);img.setAttribute('alt',p.title||p.name||'')}
   $('.modal__content',el).setAttribute('aria-label',p.name||p.title||'Promoción');
   var h=$('h2',el);if(h){h.textContent=p.title||'';h.hidden=!p.title}
@@ -7471,6 +7475,11 @@ function renderPopups(){
   var fab=$('.lu-promo-btn',R),rot=cfg.popups.filter(function(p){return p.active&&p.inBtn});
   if(fab){fab.hidden=!rot.length;fab.style.display=rot.length?'':'none';if(rot.length)fab.setAttribute('aria-controls',rot[0].id)}
   $$('[aria-controls]',R).forEach(function(t){if(t.closest('#lu-ed'))return;var id=t.getAttribute('aria-controls'),el=document.getElementById(id);if(el&&el.hasAttribute('data-ed-off')&&!t.classList.contains('lu-promo-btn')){t.setAttribute('data-ed-dead','')}else t.removeAttribute('data-ed-dead')});}
+/* formularios de correo de los pop-ups: confirmación sin salir de la página */
+R.addEventListener('click',function(e){var b=e.target.closest('.newsletter-modal__form button');if(!b)return;e.preventDefault();e.stopImmediatePropagation();var f=b.closest('form'),em=$('input[type=email]',f);
+  var ok=em&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value.trim());var msg=$('.lu-nl-msg',f);if(!msg){msg=document.createElement('p');msg.className='lu-nl-msg';msg.setAttribute('role','status');f.appendChild(msg)}
+  if(!ok){msg.textContent='Escribe un correo válido.';msg.style.color='rgb(222,42,42)';em&&em.focus();return}
+  msg.style.color='';msg.textContent='¡Gracias! Registramos '+em.value.trim()+'. (Maqueta: no se guardó ni se envió nada.)';em.value=''},true);
 /* el botón 15% OFF rota entre los pop-ups marcados */
 var rotN=0;
 R.addEventListener('click',function(e){var b=e.target.closest('.lu-promo-btn');if(!b)return;var rot=cfg.popups.filter(function(p){return p.active&&p.inBtn});if(!rot.length)return;b.setAttribute('aria-controls',rot[rotN%rot.length].id);rotN++},true);
@@ -7553,7 +7562,6 @@ function collect(){var it=editing.item,v=function(id){var el=$('#'+id,BODY);retu
     if(editing.isNew&&!it.d)return'Sube la imagen para computadora.';if(!it.m&&it.d&&it.src!=='dom')it.m=it.d}
   else{var kd=$('#ed-kind',BODY);if(kd)it.kind=kd.value;it.title=v('ed-ti').trim();it.text=v('ed-tx').trim();it.btn=v('ed-btn').trim();if(it.kind!=='email')it.link=readLink();
     it.active=$('#ed-act',BODY).checked;it.auto=$('#ed-auto',BODY).checked;var d=parseInt(v('ed-dl'),10);it.delay=isNaN(d)?5:Math.max(0,Math.min(120,d));it.inBtn=$('#ed-inb',BODY).checked;
-    if(it.kind==='email'&&editing.isNew)return'Por ahora los pop-ups nuevos solo pueden ser de promoción con botón.';
     if(!it.title&&!it.text&&!popImg(it))return'Agrega al menos una imagen, un título o un texto.'}
   if(it.link&&it.link.indexOf('popup:')!==0&&/^\s*javascript:/i.test(it.link))return'Ese enlace no está permitido.';
   return null}
