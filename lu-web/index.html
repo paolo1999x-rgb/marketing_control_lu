@@ -7170,11 +7170,7 @@ R.addEventListener('click',function(e){var a=e.target.closest('a');if(a&&a.getAt
 R.querySelectorAll('tabs-nav').forEach(function(nav){var bs=nav.querySelectorAll('button[aria-controls]');
   bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(o){o.setAttribute('aria-expanded','false');var p=document.getElementById(o.getAttribute('aria-controls'));if(p)p.hidden=true;});
     b.setAttribute('aria-expanded','true');var p=document.getElementById(b.getAttribute('aria-controls'));if(p)p.hidden=false;});});});
-/* carrusel principal */
-R.querySelectorAll('slide-show').forEach(function(ss){var sl=ss.querySelectorAll('slide-show-item');var dots=ss.querySelectorAll('.page-dots button, page-dots button, [class*="dots"] button');var i=0;
-  function go(n){i=(n+sl.length)%sl.length;sl.forEach(function(s,k){var on=k===i;s.hidden=!on;s.style.opacity=on?1:0;s.style.visibility=on?'visible':'hidden';s.style.zIndex=on?1:0;s.querySelectorAll('[reveal],[style*="opacity"]').forEach(function(c){c.style.opacity=1;c.style.transform='none';c.style.visibility='visible'});});dots.forEach(function(d,k){d.setAttribute('aria-current',k===i?'true':'false')});}
-  var tm=null;function auto(){clearInterval(tm);if(sl.length>1&&!matchMedia('(prefers-reduced-motion: reduce)').matches)tm=auto()}dots.forEach(function(d,k){d.addEventListener('click',function(){go(k);auto()})});
-  go(0);if(sl.length>1&&!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(function(){go(i+1)},6000);});
+
 /* menú desplegable */
 R.querySelectorAll('[aria-controls^="desktop-menu-"]').forEach(function(t){var m=document.getElementById(t.getAttribute('aria-controls'));if(!m)return;var li=t.closest('li')||t.parentNode;
   function o(v){m.hidden=!v;t.setAttribute('aria-expanded',v);if(v){m.style.opacity=1;m.style.visibility='visible';m.style.transform='none'}}
@@ -7204,14 +7200,8 @@ R.addEventListener('click',function(e){
   if(add&&!add.closest('#mini-cart')){e.preventDefault();var mc=document.getElementById('mini-cart');if(mc)setOpen(mc,true)}
 });
 document.addEventListener('keydown',function(e){if(e.key==='Escape')R.querySelectorAll('.drawer[open],.modal[open],.popover[open]').forEach(function(o){setOpen(o,false)})});
-/* deslizar el carrusel */
-R.querySelectorAll('slide-show').forEach(function(ss){var x0=null;var dots=ss.querySelectorAll('page-dots button');
-  function cur(){var k=0;dots.forEach(function(d,j){if(d.getAttribute('aria-current')==='true')k=j});return k}
-  ss.addEventListener('pointerdown',function(e){if(e.target.closest('a,button'))return;x0=e.clientX});
-  ss.addEventListener('pointerup',function(e){if(x0===null)return;var dx=e.clientX-x0;x0=null;if(Math.abs(dx)<40||!dots.length)return;var n=(cur()+(dx<0?1:-1)+dots.length)%dots.length;dots[n].click()});
-  ss.addEventListener('pointercancel',function(){x0=null});});
-/* pop-up de novedades a los 5 s, como en la web */
-var np=document.getElementById('lu-mendoza');if(np)setTimeout(function(){if(!R.querySelector('.drawer[open],.modal[open]'))setOpen(np,true)},5000);
+
+
 })();
 </script>
 <style>
@@ -7261,16 +7251,7 @@ auto();
 #lu-root #lu-tyc .lu-tyc__body h3{font-family:var(--text-font-family);font-size:var(--heading-small-font-size);font-weight:var(--text-font-bold-weight);letter-spacing:1px;line-height:1.5;text-transform:uppercase;margin:26px 0 6px}
 </style>
 <style>#lu-root #lu-mendoza .modal__content{max-width:760px}#lu-root #lu-mendoza .button-wrapper{margin-block-start:24px}#lu-root #lu-mendoza .text--small{margin-block-start:16px}</style>
-<script>
-(function(){
-var R=document.getElementById('lu-root');if(!R)return;
-var order=['newsletter-popup','lu-mendoza'],n=0;
-R.addEventListener('click',function(e){
-  var b=e.target.closest('.lu-promo-btn');if(!b)return;
-  b.setAttribute('aria-controls',order[n%order.length]);n++;
-},true);
-})();
-</script>
+
 <style>
 #lu-root .lu-trust{background:#000;color:#fff;border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12)}
 #lu-root .lu-trust__in{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding-block:20px}
@@ -7301,4 +7282,313 @@ R.addEventListener('click',function(e){var b=e.target.closest('.lu-acc__btn');if
 </script>
 <script>document.addEventListener("click",function(e){var b=e.target.closest("[name=checkout],.checkout-button");if(b){e.preventDefault();e.stopPropagation();location.href="checkout.html"}},true);</script>
 <style>#lu-root slide-show-item{transition:opacity .45s ease}</style><script>(function(){var M={"Whisky JOHNNIE WALKER Gold Label Reserve Botella 750ml":"producto_gold.html","Whisky JOHNNIE WALKER Blue Label Botella 750ml":"producto_blue.html","12 Espumantes RICCADONNA Moscato Rose Botella 750ml":"producto_riccadonna12.html","Champagne VEUVE CLICQUOT Brut La Grande Dame Botella 750ml":"producto_grandedame.html","Champagne RUINART Brut Second Skin Botella 750ml":"producto_ruinartbrut.html","Champagne RUINART Rosé Second Skin Botella 750ml":"producto_ruinartrose.html"};function pg(it){var t=it&&it.querySelector(".product-item-meta__title");return t&&M[t.textContent.trim()]}document.querySelectorAll(".product-item").forEach(function(it){var u=pg(it);if(u)it.querySelectorAll("a[href=\"#\"]").forEach(function(a){if(!a.closest("form,button"))a.href=u})});document.addEventListener("click",function(e){var a=e.target.closest(".product-item a");if(!a)return;var u=pg(a.closest(".product-item"));if(u&&!e.target.closest("button,form")){e.preventDefault();e.stopPropagation();location.href=u}},true)})();</script>
+<style>
+/* ===== Editor de banners y pop-ups (solo maqueta) ===== */
+#lu-ed-fab{position:fixed;left:16px;bottom:16px;z-index:2147483000;display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px;border:1px solid #000;border-radius:0;background:#fff;color:#000;font:700 11px/1 var(--text-font-family,Arial,sans-serif);letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+#lu-ed-fab:hover{background:#000;color:#fff}
+#lu-ed-fab[hidden]{display:none!important}
+#lu-ed{position:fixed;inset:0;z-index:2147483001;font-family:var(--text-font-family,Arial,sans-serif);color:#1a1a1a}
+#lu-ed[hidden]{display:none!important}
+#lu-ed *{box-sizing:border-box}
+#lu-ed .ed-ov{position:absolute;inset:0;background:rgba(0,0,0,.35)}
+#lu-ed .ed-pn{position:absolute;top:0;right:0;bottom:0;width:min(460px,100%);background:#fff;display:flex;flex-direction:column;box-shadow:-4px 0 24px rgba(0,0,0,.18)}
+#lu-ed .ed-hd{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 20px;border-bottom:1px solid #e6e6e6}
+#lu-ed .ed-hd h2{margin:0;font:700 14px/1.2 var(--heading-font-family,Arial,sans-serif);letter-spacing:1px;text-transform:uppercase}
+#lu-ed .ed-x{width:36px;height:36px;border:0;background:none;font-size:22px;line-height:1;cursor:pointer;color:#000}
+#lu-ed .ed-tabs{display:flex;border-bottom:1px solid #e6e6e6}
+#lu-ed .ed-tab{flex:1;height:44px;border:0;border-bottom:2px solid transparent;background:none;font:700 12px/1 inherit;font-family:inherit;letter-spacing:1px;text-transform:uppercase;color:#777;cursor:pointer}
+#lu-ed .ed-tab[aria-selected=true]{color:#000;border-bottom-color:#DE2A2A}
+#lu-ed .ed-bd{flex:1;overflow:auto;padding:16px 20px 24px}
+#lu-ed .ed-ft{display:flex;flex-wrap:wrap;gap:8px;padding:12px 20px;border-top:1px solid #e6e6e6;background:#fafafa}
+#lu-ed .ed-note{margin:0 0 14px;font-size:12px;line-height:1.5;color:#666}
+#lu-ed .ed-msg{margin:0 0 12px;padding:8px 10px;font-size:12px;line-height:1.4;background:#f1f8f1;color:#1d6b2c;border-left:3px solid #2e9a45}
+#lu-ed .ed-msg.err{background:#fdf1f1;color:#a11d1d;border-left-color:#DE2A2A}
+#lu-ed .ed-list{list-style:none;margin:0 0 14px;padding:0;border-top:1px solid #eee}
+#lu-ed .ed-it{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid #eee}
+#lu-ed .ed-th{width:64px;height:40px;object-fit:cover;background:#f2f2f2;display:block}
+#lu-ed .ed-nm{font-size:13px;font-weight:600;line-height:1.3;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+#lu-ed .ed-sub{display:block;font-size:11px;font-weight:400;color:#888;margin-top:2px}
+#lu-ed .ed-off .ed-th,#lu-ed .ed-off .ed-nm{opacity:.45}
+#lu-ed .ed-ac{display:flex;gap:2px}
+#lu-ed .ed-ib{width:30px;height:30px;border:1px solid transparent;background:none;cursor:pointer;font-size:14px;line-height:1;color:#333;border-radius:2px}
+#lu-ed .ed-ib:hover{border-color:#ddd;background:#f6f6f6}
+#lu-ed .ed-ib:disabled{opacity:.25;cursor:default;background:none;border-color:transparent}
+#lu-ed .ed-ib.del:hover{color:#DE2A2A}
+#lu-ed .ed-btn{height:40px;padding:0 16px;border:1px solid #000;background:#000;color:#fff;font:700 11px/1 inherit;font-family:inherit;letter-spacing:1.2px;text-transform:uppercase;cursor:pointer}
+#lu-ed .ed-btn.sec{background:#fff;color:#000}
+#lu-ed .ed-btn.red{background:#DE2A2A;border-color:#DE2A2A}
+#lu-ed .ed-btn.link{border:0;background:none;color:#555;padding:0 6px;text-decoration:underline;text-transform:none;letter-spacing:0;font-weight:400;font-size:12px}
+#lu-ed .ed-f{margin:0 0 14px}
+#lu-ed .ed-f>label,#lu-ed .ed-lb{display:block;margin:0 0 6px;font-size:12px;font-weight:700}
+#lu-ed .ed-f input[type=text],#lu-ed .ed-f input[type=url],#lu-ed .ed-f input[type=number],#lu-ed .ed-f textarea,#lu-ed .ed-f select{width:100%;height:40px;padding:0 10px;border:1px solid #cfcfcf;border-radius:0;font:14px/1.3 inherit;font-family:inherit;color:#1a1a1a;background:#fff}
+#lu-ed .ed-f textarea{height:auto;min-height:84px;padding:8px 10px;resize:vertical}
+#lu-ed .ed-f input:focus,#lu-ed .ed-f textarea:focus,#lu-ed .ed-f select:focus{outline:2px solid #000;outline-offset:-1px}
+#lu-ed .ed-hint{display:block;margin-top:4px;font-size:11px;color:#888;line-height:1.4}
+#lu-ed .ed-img{display:grid;grid-template-columns:96px 1fr;gap:12px;align-items:center}
+#lu-ed .ed-img img{width:96px;height:60px;object-fit:cover;background:#f2f2f2;border:1px solid #eee}
+#lu-ed .ed-img .ed-empty{width:96px;height:60px;display:flex;align-items:center;justify-content:center;background:#f2f2f2;font-size:10px;color:#999;text-align:center}
+#lu-ed .ed-chk{display:flex;align-items:center;gap:8px;font-size:13px;margin:0 0 10px;cursor:pointer}
+#lu-ed .ed-chk input{width:16px;height:16px;accent-color:#000}
+#lu-ed .ed-row{display:flex;gap:8px;flex-wrap:wrap}
+#lu-ed .ed-h3{margin:4px 0 14px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+#lu-ed .ed-sep{height:1px;background:#eee;margin:18px 0}
+#lu-ed input[type=file]{font-size:12px;max-width:100%}
+@media (max-width:520px){#lu-ed .ed-bd,#lu-ed .ed-hd,#lu-ed .ed-ft{padding-left:16px;padding-right:16px}}
+#lu-root .lu-cpop .newsletter-modal__image{aspect-ratio:auto!important;max-height:60vh;object-fit:cover}
+#lu-root .lu-cpop .modal__content{max-width:760px}
+#lu-root .lu-cpop .button-wrapper{margin-block-start:24px}
+#lu-root .lu-cslide .slideshow__text-wrapper{pointer-events:none}
+#lu-root .lu-cslide .content-box{pointer-events:auto}
+#lu-root .lu-cslide .slideshow__slide-inner{align-items:flex-end}
+#lu-ed button{font-family:var(--text-font-family,Arial,sans-serif);text-decoration:none;text-align:center;margin:0;box-shadow:none}
+#lu-ed .ed-x{padding:0;font:300 26px/1 Arial,sans-serif;border:0}
+#lu-ed .ed-tab{padding:0 8px}
+#lu-ed .ed-btn.link{text-decoration:underline}
+</style>
+<button type="button" id="lu-ed-fab" aria-haspopup="dialog" aria-controls="lu-ed" hidden>✎ Editar</button>
+<div id="lu-ed" hidden role="dialog" aria-modal="true" aria-labelledby="lu-ed-t">
+  <div class="ed-ov" data-ed="close"></div>
+  <div class="ed-pn">
+    <div class="ed-hd"><h2 id="lu-ed-t">Editar banners y pop-ups</h2><button type="button" class="ed-x" data-ed="close" aria-label="Cerrar editor">×</button></div>
+    <div class="ed-tabs" role="tablist"><button type="button" class="ed-tab" role="tab" data-tab="b" aria-selected="true">Banners</button><button type="button" class="ed-tab" role="tab" data-tab="p" aria-selected="false">Pop-ups</button></div>
+    <div class="ed-bd" id="lu-ed-body"></div>
+    <div class="ed-ft">
+      <button type="button" class="ed-btn sec" data-ed="export">Descargar copia</button>
+      <button type="button" class="ed-btn sec" data-ed="import">Cargar copia</button>
+      <button type="button" class="ed-btn link" data-ed="reset">Restaurar original</button>
+      <button type="button" class="ed-btn link" data-ed="hidefab">Ocultar botón Editar</button>
+      <input type="file" id="lu-ed-file" accept="application/json,.json" hidden>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+'use strict';
+var R=document.getElementById('lu-root');if(!R)return;
+var SS=R.querySelector('slide-show');
+var DB='lu-editor',ST='cfg',KEY='config',VER=1;
+var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- utilidades ---------- */
+function $(s,c){return (c||document).querySelector(s)}
+function $$(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function uid(p){return p+'-'+Date.now().toString(36)+Math.random().toString(36).slice(2,6)}
+function clone(o){return JSON.parse(JSON.stringify(o))}
+function lsGet(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function lsSet(k,v){try{if(v==null)localStorage.removeItem(k);else localStorage.setItem(k,v)}catch(e){}}
+
+/* ---------- almacenamiento (IndexedDB, con respaldo en memoria) ---------- */
+var mem=null;
+function idb(){return new Promise(function(ok,ko){try{var r=indexedDB.open(DB,1);r.onupgradeneeded=function(){r.result.createObjectStore(ST)};r.onsuccess=function(){ok(r.result)};r.onerror=function(){ko(r.error)}}catch(e){ko(e)}})}
+function load(){return idb().then(function(db){return new Promise(function(ok,ko){var q=db.transaction(ST).objectStore(ST).get(KEY);q.onsuccess=function(){ok(q.result||null)};q.onerror=function(){ko(q.error)}})}).catch(function(){return mem})}
+function save(c){mem=c;return idb().then(function(db){return new Promise(function(ok,ko){var tx=db.transaction(ST,'readwrite');tx.objectStore(ST).put(c,KEY);tx.oncomplete=function(){ok(true)};tx.onerror=function(){ko(tx.error)}})}).catch(function(){return false})}
+function wipe(){mem=null;return idb().then(function(db){return new Promise(function(ok){var tx=db.transaction(ST,'readwrite');tx.objectStore(ST).delete(KEY);tx.oncomplete=function(){ok(true)};tx.onerror=function(){ok(false)}})}).catch(function(){return false})}
+
+/* ---------- abrir / cerrar pop-ups del tema ---------- */
+function openModal(p){if(!p)return;$$('.drawer[open],.modal[open],.popover[open]',R).forEach(function(o){if(o!==p)o.removeAttribute('open')});p.setAttribute('open','')}
+function anyOpen(){return !!R.querySelector('.drawer[open],.modal[open],.popover[open]')}
+
+/* ---------- estado original tomado de la página ---------- */
+var origSlides=$$('slide-show-item',SS);
+var origPops={'newsletter-popup':$('#newsletter-popup'),'lu-mendoza':$('#lu-mendoza')};
+function posOf(sl){var b=$('.content-box',sl);if(!b)return'none';return /content-box--center/.test(b.className)?'center':/content-box--right/.test(b.className)?'right':'left'}
+function linkOf(a){if(!a)return'';var ac=a.getAttribute('aria-controls');if(ac)return'popup:'+ac;var h=a.getAttribute('href')||'';return h==='#'?'':h}
+function defaults(){
+  var banners=origSlides.map(function(sl,k){var a=$('.button-wrapper a',sl),im=$$('img.slideshow__image',sl);
+    return{id:sl.id,src:'dom',name:sl.id==='lu-slide-mendoza'?'Destino Mendoza':'Banner '+(k+1),alt:(im[0]&&im[0].getAttribute('alt'))||'',btn:a?a.textContent.trim():'',link:linkOf(a),pos:posOf(sl),active:true,d:null,m:null}});
+  var pops=[];
+  [['newsletter-popup','15% de descuento','email'],['lu-mendoza','Destino Mendoza','info']].forEach(function(x){var el=origPops[x[0]];if(!el)return;
+    var a=x[2]==='email'?$('.loader-button__text',el):$('.button-wrapper a',el);
+    pops.push({id:x[0],src:'dom',kind:x[2],name:x[1],title:($('h2',el)||{}).textContent||'',text:($('.newsletter-modal__content > p',el)||{}).textContent||'',btn:a?a.textContent.trim():'',link:x[2]==='info'?'':'',img:null,active:true,auto:x[0]==='lu-mendoza',delay:5,inBtn:true});});
+  return{v:VER,banners:banners,popups:pops};
+}
+var DEF=defaults();
+var cfg=clone(DEF);
+function domImg(sl,mob){var w=$$('.slideshow__image-wrapper',sl);var el=w[mob?1:0]&&$('img',w[mob?1:0]);return el?el.getAttribute('src'):''}
+function bannerImg(b,mob){if(b.src==='dom'){var sl=document.getElementById(b.id);if(b[mob?'m':'d'])return b[mob?'m':'d'];return sl?domImg(sl,mob):''}return b[mob?'m':'d']||b.d||''}
+function popImg(p){if(p.img)return p.img;var el=document.getElementById(p.id);var i=el&&$('.newsletter-modal__image',el);return i?i.getAttribute('src'):''}
+
+/* ---------- enlaces de botones ---------- */
+function wire(a,link){a.removeAttribute('aria-controls');a.removeAttribute('target');a.removeAttribute('rel');a.removeAttribute('data-action');
+  if(!link){a.setAttribute('href','#');return}
+  if(link.indexOf('popup:')===0){a.setAttribute('href','#');a.setAttribute('aria-controls',link.slice(6));return}
+  a.setAttribute('href',link);if(/^https?:/i.test(link)){a.setAttribute('target','_blank');a.setAttribute('rel','noopener')}}
+
+/* ---------- carrusel ---------- */
+var cur=0,timer=null,slides=[],dotsWrap=$('page-dots',SS),list=$('.slideshow__slide-list',SS);
+function show(n){if(!slides.length)return;cur=(n+slides.length)%slides.length;
+  slides.forEach(function(s,k){var on=k===cur;s.hidden=!on;s.style.opacity=on?1:0;s.style.visibility=on?'visible':'hidden';s.style.zIndex=on?1:0;
+    $$('[reveal],[style*="opacity"]',s).forEach(function(c){c.style.opacity=1;c.style.transform='none';c.style.visibility='visible'})});
+  $$('button',dotsWrap).forEach(function(d,k){d.setAttribute('aria-current',k===cur?'true':'false')});}
+function play(){clearInterval(timer);if(slides.length>1&&!reduce)timer=setInterval(function(){show(cur+1)},6000)}
+function slideEl(b){
+  var sl=b.src==='dom'?document.getElementById(b.id):null;
+  if(!sl){sl=document.createElement('slide-show-item');sl.className='slideshow__slide lu-cslide';sl.id=b.id;
+    sl.innerHTML='<div class="slideshow__slide-inner"><div class="slideshow__image-wrapper hidden-pocket"><img class="slideshow__image" draggable="false" alt=""></div><div class="slideshow__image-wrapper hidden-lap-and-up"><img class="slideshow__image" draggable="false" alt=""></div><div class="container"><div class="slideshow__text-wrapper slideshow__text-wrapper--bottom vertical-breather"><div class="content-box content-box--medium text-container"><div class="button-wrapper"><a class="button button--primary" href="#"></a></div></div></div></div></div>';}
+  var im=$$('img.slideshow__image',sl);
+  if(b.src!=='dom'||b.d)im[0]&&im[0].setAttribute('src',bannerImg(b,false));
+  if(b.src!=='dom'||b.m)im[1]&&im[1].setAttribute('src',bannerImg(b,true));
+  im.forEach(function(i){i.setAttribute('alt',b.alt||'')});
+  if(b.src!=='dom'){var r=new Image();r.onload=function(){sl.style.setProperty('--image-aspect-ratio',(r.naturalWidth/r.naturalHeight).toFixed(3))};r.src=bannerImg(b,false);
+    var r2=new Image();r2.onload=function(){sl.style.setProperty('--mobile-image-aspect-ratio',(r2.naturalWidth/r2.naturalHeight).toFixed(3))};r2.src=bannerImg(b,true);}
+  var box=$('.content-box',sl),bw=$('.button-wrapper',sl),a=bw&&$('a',bw);
+  if(!a&&b.btn){var c=$('.slideshow__slide-inner',sl);var w=document.createElement('div');w.className='container';w.innerHTML='<div class="slideshow__text-wrapper slideshow__text-wrapper--bottom vertical-breather"><div class="content-box content-box--medium text-container"><div class="button-wrapper"><a class="button button--primary" href="#"></a></div></div></div>';c.appendChild(w);box=$('.content-box',w);bw=$('.button-wrapper',w);a=$('a',w)}
+  if(bw)bw.hidden=!b.btn||b.pos==='none';
+  if(a){a.textContent=b.btn||'';wire(a,b.link)}
+  if(box&&sl.id!=='lu-slide-mendoza'){box.classList.remove('content-box--text-left','content-box--left','content-box--text-center','content-box--center','content-box--text-right','content-box--right');var p=b.pos==='none'?'left':b.pos;box.classList.add('content-box--text-'+p,'content-box--'+p)}
+  return sl;}
+function renderBanners(){
+  var keep={};slides=[];
+  cfg.banners.forEach(function(b){if(!b.active)return;var sl=slideEl(b);keep[sl.id]=1;list.appendChild(sl);slides.push(sl)});
+  $$('slide-show-item',list).forEach(function(s){if(!keep[s.id]){s.hidden=true;s.style.opacity=0;s.style.visibility='hidden';if(s.classList.contains('lu-cslide'))s.remove();else s.setAttribute('data-ed-off','')}else s.removeAttribute('data-ed-off')});
+  slides.forEach(function(s){list.appendChild(s)});
+  dotsWrap.innerHTML='';slides.forEach(function(s,k){var d=document.createElement('button');d.className='slideshow__progress-bar';d.setAttribute('aria-controls',s.id);d.innerHTML='<span class="visually-hidden">Ir a la diapositiva '+(k+1)+'</span>';d.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();show(k);play()});dotsWrap.appendChild(d)});
+  SS.closest('.shopify-section').hidden=!slides.length;
+  show(Math.min(cur,slides.length-1));play();}
+/* deslizar con el dedo o el mouse */
+(function(){var x0=null;SS.addEventListener('pointerdown',function(e){if(e.target.closest('a,button'))return;x0=e.clientX});
+  SS.addEventListener('pointerup',function(e){if(x0===null)return;var dx=e.clientX-x0;x0=null;if(Math.abs(dx)<40||slides.length<2)return;show(cur+(dx<0?1:-1));play()});
+  SS.addEventListener('pointercancel',function(){x0=null})})();
+
+/* ---------- pop-ups ---------- */
+function popEl(p){
+  var el=document.getElementById(p.id);
+  if(!el){el=document.createElement('modal-content');el.className='modal lu-cpop';el.id=p.id;
+    el.innerHTML='<div class="modal__overlay"></div><div class="modal__content" role="dialog" aria-modal="true"><button class="modal__close-button tap-area" data-action="close" title="Cerrar" type="button"><svg class="icon icon--close" focusable="false" height="14" viewBox="0 0 14 14" width="14"><path d="M13 13L1 1M13 1L1 13" fill="none" stroke="currentColor" stroke-width="1.1"></path></svg></button><div class="newsletter-modal newsletter-modal--hero"><img class="newsletter-modal__image" alt=""><div class="newsletter-modal__content text-container text--center"><h2 class="heading h5"></h2><p></p><div class="button-wrapper"><a class="button button--primary button--full" href="#"></a></div></div></div></div>';
+    R.appendChild(el);}
+  var img=$('.newsletter-modal__image',el);if(img){if(p.img)img.setAttribute('src',p.img);img.hidden=!popImg(p);img.setAttribute('alt',p.title||p.name||'')}
+  $('.modal__content',el).setAttribute('aria-label',p.name||p.title||'Promoción');
+  var h=$('h2',el);if(h){h.textContent=p.title||'';h.hidden=!p.title}
+  var tx=$('.newsletter-modal__content > p',el);if(tx){tx.textContent=p.text||'';tx.hidden=!p.text}
+  if(p.kind==='email'){var bt=$('.loader-button__text',el);if(bt)bt.textContent=p.btn||'Enviar'}
+  else{var a=$('.button-wrapper a',el),bw=$('.button-wrapper',el);if(a){a.textContent=p.btn||'';if(p.link){wire(a,p.link)}else{a.setAttribute('href','#');a.removeAttribute('aria-controls');a.setAttribute('data-action','close')}}if(bw)bw.hidden=!p.btn}
+  return el;}
+function renderPopups(){
+  var keep={};cfg.popups.forEach(function(p){var el=popEl(p);keep[p.id]=1;el.toggleAttribute('data-ed-off',!p.active);if(!p.active)el.removeAttribute('open')});
+  $$('modal-content.lu-cpop',R).forEach(function(el){if(!keep[el.id])el.remove()});
+  Object.keys(origPops).forEach(function(id){var el=origPops[id];if(el&&!keep[id]){el.removeAttribute('open');el.setAttribute('data-ed-off','')}});
+  var fab=$('.lu-promo-btn',R),rot=cfg.popups.filter(function(p){return p.active&&p.inBtn});
+  if(fab){fab.hidden=!rot.length;fab.style.display=rot.length?'':'none';if(rot.length)fab.setAttribute('aria-controls',rot[0].id)}
+  $$('[aria-controls]',R).forEach(function(t){if(t.closest('#lu-ed'))return;var id=t.getAttribute('aria-controls'),el=document.getElementById(id);if(el&&el.hasAttribute('data-ed-off')&&!t.classList.contains('lu-promo-btn')){t.setAttribute('data-ed-dead','')}else t.removeAttribute('data-ed-dead')});}
+/* el botón 15% OFF rota entre los pop-ups marcados */
+var rotN=0;
+R.addEventListener('click',function(e){var b=e.target.closest('.lu-promo-btn');if(!b)return;var rot=cfg.popups.filter(function(p){return p.active&&p.inBtn});if(!rot.length)return;b.setAttribute('aria-controls',rot[rotN%rot.length].id);rotN++},true);
+/* bloquear enlaces a pop-ups eliminados */
+R.addEventListener('click',function(e){var t=e.target.closest('[data-ed-dead]');if(t){e.preventDefault();e.stopImmediatePropagation()}},true);
+/* apertura automática: en orden, sin encimarse */
+var autoDone=false;
+function scheduleAuto(){if(autoDone)return;autoDone=true;
+  var q=cfg.popups.filter(function(p){return p.active&&p.auto});
+  (function next(k,wait){if(k>=q.length)return;setTimeout(function tryOpen(){if(anyOpen()){setTimeout(tryOpen,1500);return}openModal(document.getElementById(q[k].id));next(k+1,0)},Math.max(0,(+q[k].delay||0)*1000-wait))})(0,0);}
+
+function applyAll(){renderBanners();renderPopups()}
+
+/* ---------- imágenes: comprimir antes de guardar ---------- */
+function readImg(file,maxW){return new Promise(function(ok,ko){if(!file||!/^image\//.test(file.type)){ko(new Error('El archivo no es una imagen.'));return}
+  var fr=new FileReader();fr.onerror=function(){ko(fr.error)};fr.onload=function(){var im=new Image();im.onerror=function(){ko(new Error('No se pudo leer la imagen.'))};im.onload=function(){
+    var w=im.naturalWidth,h=im.naturalHeight,s=Math.min(1,maxW/w);var c=document.createElement('canvas');c.width=Math.round(w*s);c.height=Math.round(h*s);
+    var x=c.getContext('2d');x.drawImage(im,0,0,c.width,c.height);var out=c.toDataURL('image/webp',0.85);if(out.indexOf('data:image/webp')!==0)out=c.toDataURL('image/jpeg',0.85);ok(out)};im.src=fr.result};fr.readAsDataURL(file)})}
+
+/* ---------- panel ---------- */
+var ED=$('#lu-ed'),BODY=$('#lu-ed-body'),FAB=$('#lu-ed-fab'),tab='b',editing=null,flash=null,lastFocus=null;
+function setFab(){FAB.hidden=lsGet('lu-ed-hidefab')==='1'&&!/[#?&]editar\b/.test(location.href)}
+function openEd(){lastFocus=document.activeElement;ED.hidden=false;editing=null;draw();setTimeout(function(){var f=$('.ed-tab[aria-selected=true]',ED);f&&f.focus()},0)}
+function closeEd(){ED.hidden=true;if(lastFocus&&lastFocus.focus)lastFocus.focus()}
+function note(t,err){flash={t:t,err:!!err}}
+function linkHint(){return'<span class="ed-hint">Puede ser una página (ej. <b>whisky.html</b>), una web externa (https://…) o un pop-up: <b>popup:</b> + el nombre interno del pop-up (ej. <b>popup:lu-mendoza</b>). Déjalo vacío si no lleva enlace.</span>'}
+function popOptions(sel){var o='<option value="">— Sin enlace —</option><option value="__url"'+(sel&&sel.indexOf('popup:')!==0?' selected':'')+'>Página o web (escribir abajo)</option>';cfg.popups.forEach(function(p){o+='<option value="popup:'+esc(p.id)+'"'+(sel==='popup:'+p.id?' selected':'')+'>Abrir pop-up: '+esc(p.name)+'</option>'});return o}
+function linkField(val){var isUrl=val&&val.indexOf('popup:')!==0;return'<div class="ed-f"><label for="ed-lk">El botón lleva a</label><select id="ed-lk">'+popOptions(val)+'</select></div><div class="ed-f" id="ed-urlw"'+(isUrl?'':' hidden')+'><label for="ed-url">Dirección</label><input type="text" id="ed-url" value="'+esc(isUrl?val:'')+'" placeholder="whisky.html o https://…"><span class="ed-hint">Una página de esta maqueta (ej. whisky.html) o una web externa que empiece con https://</span></div>'}
+function readLink(){var s=$('#ed-lk',BODY).value;if(s==='__url'){return($('#ed-url',BODY).value||'').trim()}return s}
+function draw(){
+  $$('.ed-tab',ED).forEach(function(t){t.setAttribute('aria-selected',t.dataset.tab===tab?'true':'false')});
+  var h=flash?'<p class="ed-msg'+(flash.err?' err':'')+'" role="status">'+esc(flash.t)+'</p>':'';flash=null;
+  if(editing){h+=tab==='b'?bannerForm(editing):popForm(editing);BODY.innerHTML=h;bindForm();return}
+  if(tab==='b'){
+    h+='<p class="ed-note">Los banners del carrusel principal, en el orden en que se muestran. Los cambios se guardan en este navegador.</p><ul class="ed-list">';
+    cfg.banners.forEach(function(b,k){h+='<li class="ed-it'+(b.active?'':' ed-off')+'"><img class="ed-th" alt="" src="'+esc(bannerImg(b,false))+'"><div class="ed-nm">'+esc(b.name)+'<span class="ed-sub">'+(b.active?'Visible':'Oculto')+(b.btn?' · Botón: '+esc(b.btn):'')+'</span></div><div class="ed-ac">'+
+      '<button type="button" class="ed-ib" data-a="up" data-k="'+k+'" aria-label="Subir"'+(k?'':' disabled')+'>↑</button><button type="button" class="ed-ib" data-a="down" data-k="'+k+'" aria-label="Bajar"'+(k<cfg.banners.length-1?'':' disabled')+'>↓</button><button type="button" class="ed-ib" data-a="edit" data-k="'+k+'" aria-label="Editar">✎</button><button type="button" class="ed-ib del" data-a="del" data-k="'+k+'" aria-label="Eliminar">🗑</button></div></li>'});
+    h+='</ul><button type="button" class="ed-btn red" data-a="add">+ Agregar banner</button>';
+  }else{
+    h+='<p class="ed-note">Pop-ups de la página. Puedes elegir cuáles se abren solos y cuáles salen con el botón <b>15% OFF</b> del encabezado.</p><ul class="ed-list">';
+    cfg.popups.forEach(function(p,k){var s=[];s.push(p.active?'Activo':'Inactivo');if(p.active&&p.auto)s.push('se abre a los '+(+p.delay||0)+' s');if(p.active&&p.inBtn)s.push('en botón 15% OFF');
+      h+='<li class="ed-it'+(p.active?'':' ed-off')+'"><img class="ed-th" alt="" src="'+esc(popImg(p))+'"><div class="ed-nm">'+esc(p.name)+'<span class="ed-sub">'+esc(s.join(' · '))+'</span></div><div class="ed-ac">'+
+      '<button type="button" class="ed-ib" data-a="view" data-k="'+k+'" aria-label="Ver">👁</button><button type="button" class="ed-ib" data-a="edit" data-k="'+k+'" aria-label="Editar">✎</button><button type="button" class="ed-ib del" data-a="del" data-k="'+k+'" aria-label="Eliminar">🗑</button></div></li>'});
+    h+='</ul><button type="button" class="ed-btn red" data-a="add">+ Agregar pop-up</button>';
+  }
+  BODY.innerHTML=h;}
+function imgField(id,label,src,hint){return'<div class="ed-f"><span class="ed-lb">'+label+'</span><div class="ed-img">'+(src?'<img id="'+id+'-pv" alt="" src="'+esc(src)+'">':'<div class="ed-empty" id="'+id+'-pv">Sin imagen</div>')+'<div><input type="file" id="'+id+'" accept="image/*"><span class="ed-hint">'+hint+'</span></div></div></div>'}
+function bannerForm(e){var b=e.item;
+  return'<h3 class="ed-h3">'+(e.isNew?'Nuevo banner':'Editar banner')+'</h3>'+
+  '<div class="ed-f"><label for="ed-nm">Nombre (solo para ti)</label><input type="text" id="ed-nm" value="'+esc(b.name)+'"></div>'+
+  imgField('ed-d','Imagen para computadora',e.isNew&&!b.d?'':bannerImg(b,false),'Recomendado: 1920 × 550 px (horizontal).')+
+  imgField('ed-m','Imagen para celular',e.isNew&&!b.m?'':bannerImg(b,true),'Recomendado: 1000 × 700 px. Si no subes una, se usa la de computadora.')+
+  '<div class="ed-f"><label for="ed-alt">Descripción de la imagen</label><input type="text" id="ed-alt" value="'+esc(b.alt)+'"><span class="ed-hint">La leen los lectores de pantalla y Google.</span></div>'+
+  '<div class="ed-f"><label for="ed-btn">Texto del botón</label><input type="text" id="ed-btn" value="'+esc(b.btn)+'" placeholder="Ej. VER MÁS"><span class="ed-hint">Déjalo vacío si el banner no lleva botón.</span></div>'+
+  linkField(b.link)+
+  (b.id==='lu-slide-mendoza'?'':'<div class="ed-f"><label for="ed-pos">Posición del botón</label><select id="ed-pos"><option value="left"'+(b.pos==='left'?' selected':'')+'>Izquierda</option><option value="center"'+(b.pos==='center'?' selected':'')+'>Centro</option><option value="right"'+(b.pos==='right'?' selected':'')+'>Derecha</option></select></div>')+
+  '<label class="ed-chk"><input type="checkbox" id="ed-act"'+(b.active?' checked':'')+'> Mostrar en el carrusel</label>'+
+  '<div class="ed-sep"></div><div class="ed-row"><button type="button" class="ed-btn" data-a="save">Guardar</button><button type="button" class="ed-btn sec" data-a="cancel">Cancelar</button></div>'}
+function popForm(e){var p=e.item;
+  return'<h3 class="ed-h3">'+(e.isNew?'Nuevo pop-up':'Editar pop-up')+'</h3>'+
+  '<div class="ed-f"><label for="ed-nm">Nombre (solo para ti)</label><input type="text" id="ed-nm" value="'+esc(p.name)+'"><span class="ed-hint">Nombre interno para enlazarlo desde un botón: <b>popup:'+esc(p.id)+'</b></span></div>'+
+  (e.isNew?'<div class="ed-f"><label for="ed-kind">Tipo</label><select id="ed-kind"><option value="info"'+(p.kind==='info'?' selected':'')+'>Promoción con botón</option><option value="email"'+(p.kind==='email'?' selected':'')+'>Captura de correo</option></select></div>':'')+
+  imgField('ed-i','Imagen',e.isNew&&!p.img?'':popImg(p),'Recomendado: 1500 × 520 px (horizontal).')+
+  '<div class="ed-f"><label for="ed-ti">Título</label><input type="text" id="ed-ti" value="'+esc(p.title)+'"></div>'+
+  '<div class="ed-f"><label for="ed-tx">Texto</label><textarea id="ed-tx">'+esc(p.text)+'</textarea></div>'+
+  '<div class="ed-f"><label for="ed-btn">Texto del botón</label><input type="text" id="ed-btn" value="'+esc(p.btn)+'"></div>'+
+  (p.kind==='email'?'<p class="ed-note">El botón envía el correo que escriba el cliente.</p>':linkField(p.link)+'<p class="ed-note">Sin enlace, el botón solo cierra el pop-up.</p>')+
+  '<label class="ed-chk"><input type="checkbox" id="ed-act"'+(p.active?' checked':'')+'> Pop-up activo</label>'+
+  '<label class="ed-chk"><input type="checkbox" id="ed-auto"'+(p.auto?' checked':'')+'> Abrir solo al entrar a la página</label>'+
+  '<div class="ed-f" style="max-width:200px"><label for="ed-dl">A los (segundos)</label><input type="number" id="ed-dl" min="0" max="120" step="1" value="'+esc(p.delay)+'"></div>'+
+  '<label class="ed-chk"><input type="checkbox" id="ed-inb"'+(p.inBtn?' checked':'')+'> Mostrar con el botón 15% OFF del encabezado</label>'+
+  '<div class="ed-sep"></div><div class="ed-row"><button type="button" class="ed-btn" data-a="save">Guardar</button><button type="button" class="ed-btn sec" data-a="preview">Vista previa</button><button type="button" class="ed-btn sec" data-a="cancel">Cancelar</button></div>'}
+function bindForm(){
+  var lk=$('#ed-lk',BODY);if(lk)lk.addEventListener('change',function(){$('#ed-urlw',BODY).hidden=lk.value!=='__url'});
+  [['ed-d','d',1920],['ed-m','m',1000],['ed-i','img',1500]].forEach(function(x){var inp=$('#'+x[0],BODY);if(!inp)return;
+    inp.addEventListener('change',function(){var f=inp.files&&inp.files[0];if(!f)return;readImg(f,x[2]).then(function(u){editing.item[x[1]]=u;var pv=$('#'+x[0]+'-pv',BODY);if(pv.tagName!=='IMG'){var im=document.createElement('img');im.id=pv.id;im.alt='';pv.replaceWith(im);pv=im}pv.src=u}).catch(function(err){note(err.message,true);var keep=editing;draw();editing=keep})})});}
+function collect(){var it=editing.item,v=function(id){var el=$('#'+id,BODY);return el?el.value:''};
+  it.name=v('ed-nm').trim()||it.name;
+  if(tab==='b'){it.alt=v('ed-alt').trim();it.btn=v('ed-btn').trim();it.link=readLink();var ps=$('#ed-pos',BODY);if(ps)it.pos=ps.value;it.active=$('#ed-act',BODY).checked;
+    if(editing.isNew&&!it.d)return'Sube la imagen para computadora.';if(!it.m&&it.d&&it.src!=='dom')it.m=it.d}
+  else{var kd=$('#ed-kind',BODY);if(kd)it.kind=kd.value;it.title=v('ed-ti').trim();it.text=v('ed-tx').trim();it.btn=v('ed-btn').trim();if(it.kind!=='email')it.link=readLink();
+    it.active=$('#ed-act',BODY).checked;it.auto=$('#ed-auto',BODY).checked;var d=parseInt(v('ed-dl'),10);it.delay=isNaN(d)?5:Math.max(0,Math.min(120,d));it.inBtn=$('#ed-inb',BODY).checked;
+    if(it.kind==='email'&&editing.isNew)return'Por ahora los pop-ups nuevos solo pueden ser de promoción con botón.';
+    if(!it.title&&!it.text&&!popImg(it))return'Agrega al menos una imagen, un título o un texto.'}
+  if(it.link&&it.link.indexOf('popup:')!==0&&/^\s*javascript:/i.test(it.link))return'Ese enlace no está permitido.';
+  return null}
+function persist(msg){return save(cfg).then(function(ok){note(ok?msg:'Cambios aplicados, pero este navegador no permite guardarlos: se perderán al recargar.',!ok)})}
+BODY.addEventListener('click',function(e){var b=e.target.closest('[data-a]');if(!b)return;var a=b.dataset.a,k=+b.dataset.k,arr=tab==='b'?cfg.banners:cfg.popups;
+  if(a==='up'||a==='down'){var j=a==='up'?k-1:k+1;if(j<0||j>=arr.length)return;var t=arr[k];arr[k]=arr[j];arr[j]=t;applyAll();persist('Orden actualizado.').then(draw);return}
+  if(a==='edit'){editing={k:k,isNew:false,item:clone(arr[k])};draw();return}
+  if(a==='view'){closeEd();var el=document.getElementById(arr[k].id);if(el){if(!arr[k].active){note('Este pop-up está inactivo; actívalo para que lo vean tus clientes.',true)}el.removeAttribute('data-ed-off');openModal(el);var mo=new MutationObserver(function(){if(!el.hasAttribute('open')){mo.disconnect();renderPopups()}});mo.observe(el,{attributes:true,attributeFilter:['open']})}return}
+  if(a==='del'){var it=arr[k];if(!confirm('¿Eliminar "'+it.name+'"? Puedes recuperarlo con "Restaurar original" si es de la página original.'))return;arr.splice(k,1);if(tab==='p'){cfg.banners.concat(cfg.popups).forEach(function(x){if(x.link==='popup:'+it.id)x.link=''})}applyAll();persist('"'+it.name+'" eliminado.').then(draw);return}
+  if(a==='add'){editing=tab==='b'?{isNew:true,item:{id:uid('lu-banner'),src:'new',name:'Banner nuevo',alt:'',btn:'VER MÁS',link:'',pos:'left',active:true,d:null,m:null}}:{isNew:true,item:{id:uid('lu-popup'),src:'new',kind:'info',name:'Pop-up nuevo',title:'',text:'',btn:'VER MÁS',link:'',img:null,active:true,auto:false,delay:5,inBtn:false}};draw();return}
+  if(a==='cancel'){editing=null;draw();return}
+  if(a==='save'||a==='preview'){var err=collect();if(err){note(err,true);var keep=editing;BODY.innerHTML='';editing=keep;draw();return}
+    if(editing.isNew){arr.push(editing.item);editing.isNew=false;editing.k=arr.length-1}else arr[editing.k]=editing.item;
+    applyAll();
+    if(a==='preview'){var el=document.getElementById(editing.item.id);closeEd();el.removeAttribute('data-ed-off');openModal(el);var mo=new MutationObserver(function(){if(!el.hasAttribute('open')){mo.disconnect();renderPopups()}});mo.observe(el,{attributes:true,attributeFilter:['open']});persist('Guardado.');return}
+    if(tab==='b'){var idx=slides.indexOf(document.getElementById(editing.item.id));if(idx>=0){show(idx);play()}}
+    var nm=editing.item.name;editing=null;persist('"'+nm+'" guardado.').then(draw);return}
+});
+ED.addEventListener('click',function(e){var t=e.target.closest('[data-ed]');if(!t)return;var a=t.dataset.ed;
+  if(a==='close'){closeEd();return}
+  if(a==='hidefab'){lsSet('lu-ed-hidefab','1');closeEd();setFab();alert('Botón oculto. Para volver a verlo, agrega #editar al final de la dirección de la página o presiona Ctrl + Shift + E.');return}
+  if(a==='reset'){if(!confirm('¿Volver a los banners y pop-ups originales? Se borrarán tus cambios en este navegador.'))return;wipe().then(function(){cfg=clone(DEF);origSlides.forEach(function(s){list.appendChild(s)});applyAll();editing=null;note('Se restauró la versión original.');draw()});return}
+  if(a==='export'){var blob=new Blob([JSON.stringify(cfg)],{type:'application/json'});var u=URL.createObjectURL(blob);var l=document.createElement('a');l.href=u;l.download='lu-banners-popups.json';document.body.appendChild(l);l.click();l.remove();setTimeout(function(){URL.revokeObjectURL(u)},1000);note('Copia descargada. Cárgala en otro navegador con "Cargar copia".');draw();return}
+  if(a==='import'){$('#lu-ed-file').click();return}
+});
+$('#lu-ed-file').addEventListener('change',function(){var f=this.files&&this.files[0];this.value='';if(!f)return;var fr=new FileReader();fr.onload=function(){try{var c=JSON.parse(fr.result);if(!c||!Array.isArray(c.banners)||!Array.isArray(c.popups))throw 0;cfg=c;applyAll();persist('Copia cargada.').then(function(){editing=null;draw()})}catch(e){note('Ese archivo no es una copia válida del editor.',true);draw()}};fr.readAsText(f)});
+$$('.ed-tab',ED).forEach(function(t){t.addEventListener('click',function(){tab=t.dataset.tab;editing=null;draw()})});
+ED.addEventListener('keydown',function(e){if(e.key==='Escape'){e.stopPropagation();closeEd()}});
+FAB.addEventListener('click',openEd);
+document.addEventListener('keydown',function(e){if(e.ctrlKey&&e.shiftKey&&(e.key==='E'||e.key==='e')){e.preventDefault();lsSet('lu-ed-hidefab',null);setFab();openEd()}});
+window.addEventListener('hashchange',setFab);
+
+/* ---------- arranque ---------- */
+setFab();
+load().then(function(saved){if(saved&&saved.v===VER&&Array.isArray(saved.banners)&&Array.isArray(saved.popups))cfg=saved;applyAll();scheduleAuto()}).catch(function(){applyAll();scheduleAuto()});
+})();
+</script>
 </body></html>
