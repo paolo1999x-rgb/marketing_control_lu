@@ -7496,8 +7496,11 @@ R.addEventListener('click',function(e){var t=e.target.closest('[data-ed-dead]');
 /* apertura automática: en orden, sin encimarse */
 var autoDone=false;
 function scheduleAuto(){if(autoDone)return;autoDone=true;
-  var q=cfg.popups.filter(function(p){return p.active&&p.auto});
-  (function next(k,wait){if(k>=q.length)return;setTimeout(function tryOpen(){if(anyOpen()){setTimeout(tryOpen,1500);return}openModal(document.getElementById(q[k].id));next(k+1,0)},Math.max(0,(+q[k].delay||0)*1000-wait))})(0,0);}
+  var q=cfg.popups.filter(function(p){return p.active&&p.auto}).map(function(p,i){return{p:p,i:i}}).sort(function(a,b){return((+a.p.delay||0)-(+b.p.delay||0))||(a.i-b.i)}).map(function(x){return x.p});
+  var pend=[],busy=false;
+  function pump(){if(busy||!pend.length)return;if(anyOpen()){setTimeout(pump,800);return}busy=true;var el=document.getElementById(pend.shift().id);if(!el){busy=false;pump();return}openModal(el);
+    var mo=new MutationObserver(function(){if(!el.hasAttribute('open')){mo.disconnect();busy=false;setTimeout(pump,600)}});mo.observe(el,{attributes:true,attributeFilter:['open']})}
+  q.forEach(function(p){setTimeout(function(){pend.push(p);pump()},Math.max(0,(+p.delay||0)*1000))});}
 
 function applyAll(){renderBanners();renderPopups()}
 
@@ -7580,7 +7583,7 @@ BODY.addEventListener('click',function(e){var b=e.target.closest('[data-a]');if(
   if(a==='edit'){editing={k:k,isNew:false,item:clone(arr[k])};draw();return}
   if(a==='view'){closeEd();var el=document.getElementById(arr[k].id);if(el){if(!arr[k].active){note('Este pop-up está inactivo; actívalo para que lo vean tus clientes.',true)}el.removeAttribute('data-ed-off');openModal(el);var mo=new MutationObserver(function(){if(!el.hasAttribute('open')){mo.disconnect();renderPopups()}});mo.observe(el,{attributes:true,attributeFilter:['open']})}return}
   if(a==='del'){var it=arr[k];if(!confirm('¿Eliminar "'+it.name+'"? Puedes recuperarlo con "Restaurar original" si es de la página original.'))return;arr.splice(k,1);if(tab==='p'){cfg.banners.concat(cfg.popups).forEach(function(x){if(x.link==='popup:'+it.id)x.link=''})}applyAll();persist('"'+it.name+'" eliminado.').then(draw);return}
-  if(a==='add'){editing=tab==='b'?{isNew:true,item:{id:uid('lu-banner'),src:'new',name:'Banner nuevo',alt:'',btn:'VER MÁS',link:'',pos:'left',active:true,d:null,m:null}}:{isNew:true,item:{id:uid('lu-popup'),src:'new',kind:'info',name:'Pop-up nuevo',title:'',text:'',btn:'VER MÁS',link:'',img:null,active:true,auto:false,delay:5,inBtn:false}};draw();return}
+  if(a==='add'){editing=tab==='b'?{isNew:true,item:{id:uid('lu-banner'),src:'new',name:'Banner nuevo',alt:'',btn:'VER MÁS',link:'',pos:'left',active:true,d:null,m:null}}:{isNew:true,item:{id:uid('lu-popup'),src:'new',kind:'info',name:'Pop-up nuevo',title:'',text:'',btn:'VER MÁS',link:'',img:null,active:true,auto:true,delay:5,inBtn:true}};draw();return}
   if(a==='cancel'){editing=null;draw();return}
   if(a==='save'||a==='preview'){var err=collect();if(err){note(err,true);var keep=editing;BODY.innerHTML='';editing=keep;draw();return}
     if(editing.isNew){arr.push(editing.item);editing.isNew=false;editing.k=arr.length-1}else arr[editing.k]=editing.item;
