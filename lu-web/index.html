@@ -7410,7 +7410,8 @@ function defaults(){
   [['newsletter-popup','15% de descuento','email'],['lu-mendoza','Destino Mendoza','info']].forEach(function(x){var el=origPops[x[0]];if(!el)return;
     var a=x[2]==='email'?$('.loader-button__text',el):$('.button-wrapper a',el);
     pops.push({id:x[0],src:'dom',kind:x[2],name:x[1],title:($('h2',el)||{}).textContent||'',text:($('.newsletter-modal__content > p',el)||{}).textContent||'',btn:a?a.textContent.trim():'',link:x[2]==='info'?'':'',img:null,active:true,auto:x[0]==='lu-mendoza',delay:5,inBtn:true});});
-  return{v:VER,banners:banners,popups:pops};
+  var hb=$('.lu-promo-btn',R);
+  return{v:VER,banners:banners,popups:pops,btnText:hb?hb.textContent.trim():'PROMOS'};
 }
 var DEF=defaults();
 var cfg=clone(DEF);
@@ -7481,7 +7482,7 @@ function renderPopups(){
   $$('modal-content.lu-cpop',R).forEach(function(el){if(!keep[el.id])el.remove()});
   Object.keys(origPops).forEach(function(id){var el=origPops[id];if(el&&!keep[id]){el.removeAttribute('open');el.setAttribute('data-ed-off','')}});
   var fab=$('.lu-promo-btn',R),rot=cfg.popups.filter(function(p){return p.active&&p.inBtn});
-  if(fab){fab.hidden=!rot.length;fab.style.display=rot.length?'':'none';if(rot.length)fab.setAttribute('aria-controls',rot[0].id)}
+  if(fab){fab.hidden=!rot.length;fab.style.display=rot.length?'':'none';var bt=cfg.btnText||DEF.btnText;fab.textContent=bt;fab.setAttribute('aria-label','Ver promociones: '+bt);if(rot.length&&!fab.getAttribute('aria-controls'))fab.setAttribute('aria-controls',rot[0].id)}
   $$('[aria-controls]',R).forEach(function(t){if(t.closest('#lu-ed'))return;var id=t.getAttribute('aria-controls'),el=document.getElementById(id);if(el&&el.hasAttribute('data-ed-off')&&!t.classList.contains('lu-promo-btn')){t.setAttribute('data-ed-dead','')}else t.removeAttribute('data-ed-dead')});}
 /* formularios de correo de los pop-ups: confirmación sin salir de la página */
 R.addEventListener('click',function(e){var b=e.target.closest('.newsletter-modal__form button');if(!b)return;e.preventDefault();e.stopImmediatePropagation();var f=b.closest('form'),em=$('input[type=email]',f);
@@ -7490,7 +7491,7 @@ R.addEventListener('click',function(e){var b=e.target.closest('.newsletter-modal
   msg.style.color='';msg.textContent='¡Gracias! Registramos '+em.value.trim()+'. (Maqueta: no se guardó ni se envió nada.)';em.value=''},true);
 /* el botón 15% OFF rota entre los pop-ups marcados */
 var rotN=0;
-R.addEventListener('click',function(e){var b=e.target.closest('.lu-promo-btn');if(!b)return;var rot=cfg.popups.filter(function(p){return p.active&&p.inBtn});if(!rot.length)return;b.setAttribute('aria-controls',rot[rotN%rot.length].id);rotN++},true);
+R.addEventListener('click',function(e){var b=e.target.closest('.lu-promo-btn');if(!b)return;var rot=cfg.popups.filter(function(p){return p.active&&p.inBtn});if(!rot.length){e.preventDefault();e.stopImmediatePropagation();return}b.setAttribute('aria-controls',rot[rotN%rot.length].id);rotN++},true);
 /* bloquear enlaces a pop-ups eliminados */
 R.addEventListener('click',function(e){var t=e.target.closest('[data-ed-dead]');if(t){e.preventDefault();e.stopImmediatePropagation()}},true);
 /* apertura automática: en orden, sin encimarse */
@@ -7530,10 +7531,11 @@ function draw(){
       '<button type="button" class="ed-ib" data-a="up" data-k="'+k+'" aria-label="Subir"'+(k?'':' disabled')+'>↑</button><button type="button" class="ed-ib" data-a="down" data-k="'+k+'" aria-label="Bajar"'+(k<cfg.banners.length-1?'':' disabled')+'>↓</button><button type="button" class="ed-ib" data-a="edit" data-k="'+k+'" aria-label="Editar">✎</button><button type="button" class="ed-ib del" data-a="del" data-k="'+k+'" aria-label="Eliminar">🗑</button></div></li>'});
     h+='</ul><button type="button" class="ed-btn red" data-a="add">+ Agregar banner</button>';
   }else{
-    h+='<p class="ed-note">Pop-ups de la página. Puedes elegir cuáles se abren solos y cuáles salen con el botón <b>15% OFF</b> del encabezado.</p><ul class="ed-list">';
-    cfg.popups.forEach(function(p,k){var s=[];s.push(p.active?'Activo':'Inactivo');if(p.active&&p.auto)s.push('se abre a los '+(+p.delay||0)+' s');if(p.active&&p.inBtn)s.push('en botón 15% OFF');
+    h+='<div class="ed-f"><label for="ed-hb">Texto del botón del encabezado</label><div class="ed-row"><input type="text" id="ed-hb" maxlength="18" value="'+esc(cfg.btnText||DEF.btnText)+'" style="flex:1;min-width:140px"><button type="button" class="ed-btn sec" data-a="hb">Guardar</button></div><span class="ed-hint">Este botón muestra, uno por clic y en el orden de la lista, los pop-ups marcados con "botón del encabezado". Ej.: PROMOS, OFERTAS, 15% OFF.</span></div>';
+    h+='<p class="ed-note">Pop-ups de la página. Ordénalos con ↑ ↓: ese es el orden en que salen con el botón del encabezado.</p><ul class="ed-list">';
+    cfg.popups.forEach(function(p,k){var s=[];s.push(p.active?'Activo':'Inactivo');if(p.active&&p.auto)s.push('se abre a los '+(+p.delay||0)+' s');if(p.active&&p.inBtn)s.push('en botón del encabezado');
       h+='<li class="ed-it'+(p.active?'':' ed-off')+'"><img class="ed-th" alt="" src="'+esc(popImg(p))+'"><div class="ed-nm">'+esc(p.name)+'<span class="ed-sub">'+esc(s.join(' · '))+'</span></div><div class="ed-ac">'+
-      '<button type="button" class="ed-ib" data-a="view" data-k="'+k+'" aria-label="Ver">👁</button><button type="button" class="ed-ib" data-a="edit" data-k="'+k+'" aria-label="Editar">✎</button><button type="button" class="ed-ib del" data-a="del" data-k="'+k+'" aria-label="Eliminar">🗑</button></div></li>'});
+      '<button type="button" class="ed-ib" data-a="up" data-k="'+k+'" aria-label="Subir"'+(k?'':' disabled')+'>↑</button><button type="button" class="ed-ib" data-a="down" data-k="'+k+'" aria-label="Bajar"'+(k<cfg.popups.length-1?'':' disabled')+'>↓</button><button type="button" class="ed-ib" data-a="view" data-k="'+k+'" aria-label="Ver">👁</button><button type="button" class="ed-ib" data-a="edit" data-k="'+k+'" aria-label="Editar">✎</button><button type="button" class="ed-ib del" data-a="del" data-k="'+k+'" aria-label="Eliminar">🗑</button></div></li>'});
     h+='</ul><button type="button" class="ed-btn red" data-a="add">+ Agregar pop-up</button>';
   }
   BODY.innerHTML=h;}
@@ -7561,7 +7563,7 @@ function popForm(e){var p=e.item;
   '<label class="ed-chk"><input type="checkbox" id="ed-act"'+(p.active?' checked':'')+'> Pop-up activo</label>'+
   '<label class="ed-chk"><input type="checkbox" id="ed-auto"'+(p.auto?' checked':'')+'> Abrir solo al entrar a la página</label>'+
   '<div class="ed-f" style="max-width:200px"><label for="ed-dl">A los (segundos)</label><input type="number" id="ed-dl" min="0" max="120" step="1" value="'+esc(p.delay)+'"></div>'+
-  '<label class="ed-chk"><input type="checkbox" id="ed-inb"'+(p.inBtn?' checked':'')+'> Mostrar con el botón 15% OFF del encabezado</label>'+
+  '<label class="ed-chk"><input type="checkbox" id="ed-inb"'+(p.inBtn?' checked':'')+'> Mostrar con el botón del encabezado</label>'+
   '<div class="ed-sep"></div><div class="ed-row"><button type="button" class="ed-btn" data-a="save">Guardar</button><button type="button" class="ed-btn sec" data-a="preview">Vista previa</button><button type="button" class="ed-btn sec" data-a="cancel">Cancelar</button></div>'}
 function bindForm(){
   $$('input[name=ed-kind]',BODY).forEach(function(r){r.addEventListener('change',function(){collect();var keep=editing;draw();editing=keep;var f=$('input[name=ed-kind]:checked',BODY);f&&f.focus()})});
@@ -7579,6 +7581,7 @@ function collect(){var it=editing.item,v=function(id){var el=$('#'+id,BODY);retu
   return null}
 function persist(msg){return save(cfg).then(function(ok){note(ok?msg:'Cambios aplicados, pero este navegador no permite guardarlos: se perderán al recargar.',!ok)})}
 BODY.addEventListener('click',function(e){var b=e.target.closest('[data-a]');if(!b)return;var a=b.dataset.a,k=+b.dataset.k,arr=tab==='b'?cfg.banners:cfg.popups;
+  if(a==='hb'){var v=($('#ed-hb',BODY).value||'').trim();if(!v){note('Escribe un texto para el botón.',true);draw();return}cfg.btnText=v;renderPopups();persist('Texto del botón actualizado.').then(draw);return}
   if(a==='up'||a==='down'){var j=a==='up'?k-1:k+1;if(j<0||j>=arr.length)return;var t=arr[k];arr[k]=arr[j];arr[j]=t;applyAll();persist('Orden actualizado.').then(draw);return}
   if(a==='edit'){editing={k:k,isNew:false,item:clone(arr[k])};draw();return}
   if(a==='view'){closeEd();var el=document.getElementById(arr[k].id);if(el){if(!arr[k].active){note('Este pop-up está inactivo; actívalo para que lo vean tus clientes.',true)}el.removeAttribute('data-ed-off');openModal(el);var mo=new MutationObserver(function(){if(!el.hasAttribute('open')){mo.disconnect();renderPopups()}});mo.observe(el,{attributes:true,attributeFilter:['open']})}return}
