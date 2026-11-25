@@ -7520,7 +7520,7 @@ function note(t,err){flash={t:t,err:!!err}}
 function linkHint(){return'<span class="ed-hint">Puede ser una página (ej. <b>whisky.html</b>), una web externa (https://…) o un pop-up: <b>popup:</b> + el nombre interno del pop-up (ej. <b>popup:lu-mendoza</b>). Déjalo vacío si no lleva enlace.</span>'}
 function popOptions(sel){var o='<option value="">— Sin enlace —</option><option value="__url"'+(sel&&sel.indexOf('popup:')!==0?' selected':'')+'>Página o web (escribir abajo)</option>';cfg.popups.forEach(function(p){o+='<option value="popup:'+esc(p.id)+'"'+(sel==='popup:'+p.id?' selected':'')+'>Abrir pop-up: '+esc(p.name)+'</option>'});return o}
 function linkField(val){var isUrl=val&&val.indexOf('popup:')!==0;return'<div class="ed-f"><label for="ed-lk">El botón lleva a</label><select id="ed-lk">'+popOptions(val)+'</select></div><div class="ed-f" id="ed-urlw"'+(isUrl?'':' hidden')+'><label for="ed-url">Dirección</label><input type="text" id="ed-url" value="'+esc(isUrl?val:'')+'" placeholder="whisky.html o https://…"><span class="ed-hint">Una página de esta maqueta (ej. whisky.html) o una web externa que empiece con https://</span></div>'}
-function readLink(){var s=$('#ed-lk',BODY).value;if(s==='__url'){return($('#ed-url',BODY).value||'').trim()}return s}
+function readLink(){var sel=$('#ed-lk',BODY);if(!sel)return editing&&editing.item.link||'';var s=sel.value;if(s==='__url'){return($('#ed-url',BODY).value||'').trim()}return s}
 function draw(){
   $$('.ed-tab',ED).forEach(function(t){t.setAttribute('aria-selected',t.dataset.tab===tab?'true':'false')});
   var h=flash?'<p class="ed-msg'+(flash.err?' err':'')+'" role="status">'+esc(flash.t)+'</p>':'';flash=null;
