@@ -1,0 +1,124 @@
+<!--
+  POP-UP BLACK FRIDAY · Licorerías Unidas
+  Dónde pegarlo (Shopify): Tienda online → Temas → Personalizar → página de inicio →
+  "Agregar sección" → "Liquid personalizado" → pegar todo este bloque → Guardar.
+  También funciona pegado justo antes de </body> en layout/theme.liquid (aparece en todas las páginas).
+
+  Para cambiar textos, imagen, enlace o tiempo, edita solo el bloque CONFIG del script (abajo).
+-->
+<div id="lu-bf-popup" class="lu-bf" hidden>
+  <div class="lu-bf__overlay" data-lu-bf-close></div>
+  <div class="lu-bf__dialog" role="dialog" aria-modal="true" aria-labelledby="lu-bf-title" tabindex="-1">
+    <button type="button" class="lu-bf__close" data-lu-bf-close aria-label="Cerrar">
+      <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" focusable="false"><path d="M13 13L1 1M13 1L1 13" fill="none" stroke="currentColor" stroke-width="1.1"/></svg>
+    </button>
+    <img class="lu-bf__image" src="" alt="" width="1500" height="500">
+    <div class="lu-bf__content">
+      <h2 class="lu-bf__title" id="lu-bf-title"></h2>
+      <p class="lu-bf__text"></p>
+      <a class="lu-bf__button" href="#"></a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .lu-bf,.lu-bf *{box-sizing:border-box}
+  .lu-bf{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:center;justify-content:center;padding:16px}
+  .lu-bf[hidden]{display:none!important}
+  .lu-bf__overlay{position:absolute;inset:0;background:rgba(0,0,0,.45);opacity:0;transition:opacity .3s ease}
+  .lu-bf__dialog{position:relative;width:100%;max-width:760px;max-height:calc(100vh - 32px);overflow:auto;background:#fff;color:#020202;box-shadow:0 10px 40px rgba(0,0,0,.25);opacity:0;transform:translateY(16px);transition:opacity .3s ease,transform .3s ease;outline:none}
+  .lu-bf.is-open .lu-bf__overlay{opacity:1}
+  .lu-bf.is-open .lu-bf__dialog{opacity:1;transform:none}
+  .lu-bf__close{position:absolute;top:12px;right:12px;z-index:1;width:40px;height:40px;display:flex;align-items:center;justify-content:center;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.9);color:#000;cursor:pointer}
+  .lu-bf__close:focus-visible{outline:2px solid #000;outline-offset:2px}
+  .lu-bf__image{display:block;width:100%;height:auto;aspect-ratio:3/1;object-fit:cover;background:#1a0606}
+  .lu-bf__content{padding:32px 40px 40px;text-align:center}
+  .lu-bf__title{margin:0;font-family:var(--heading-font-family,Epilogue,sans-serif);font-weight:var(--heading-font-weight,700);font-size:22px;line-height:1.25;letter-spacing:.5px;text-transform:uppercase;color:#020202}
+  .lu-bf__text{margin:16px 0 0;font-family:var(--text-font-family,inherit);font-size:15px;line-height:1.6;color:rgba(2,2,2,.85)}
+  .lu-bf__text:empty{display:none}
+  .lu-bf__button{display:flex;align-items:center;justify-content:center;width:100%;min-height:52px;margin-top:24px;padding:0 24px;background:rgb(222,42,42);color:#fff;font-family:var(--text-font-family,inherit);font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;border:0;transition:background .2s ease}
+  .lu-bf__button:hover{background:rgb(190,30,30);color:#fff}
+  .lu-bf__button:focus-visible{outline:2px solid #000;outline-offset:3px}
+  @media (max-width:740px){
+    .lu-bf__content{padding:24px 20px 28px}
+    .lu-bf__title{font-size:18px}
+    .lu-bf__text{font-size:14px}
+  }
+  @media (prefers-reduced-motion:reduce){.lu-bf__overlay,.lu-bf__dialog{transition:none}}
+</style>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ===== CONFIG: cambia solo esto ===== */
+  var CONFIG = {
+    imagen:   'https://cdn.shopify.com/s/files/1/0723/4165/1736/files/Coleccion_premium_sobre_marmol_negro_4a28139f-bfa9-4ee8-837c-52323ae43b1a.png?v=1795735813&width=1500',
+    imagenAlt:'Colección premium de licores Black Friday en Licorerías Unidas',
+    titulo:   'BLACK FRIDAY',
+    texto:    '',                 /* opcional: déjalo vacío si no lleva texto */
+    boton:    'VER MÁS',
+    enlace:   'https://licoreriasunidas.pe/collections/black-friday-1',
+    segundos: 5,                  /* a los cuántos segundos aparece */
+    unaVezPorSesion: true,        /* true = no vuelve a salir hasta que el cliente cierre el navegador */
+    ocultarEnUrl: '/collections/black-friday-1' /* no se muestra si el cliente ya está en esta página */
+  };
+  /* ==================================== */
+
+  var KEY = 'lu-bf-popup-visto';
+  var root = document.getElementById('lu-bf-popup');
+  if (!root) return;
+  if (CONFIG.ocultarEnUrl && location.pathname.indexOf(CONFIG.ocultarEnUrl) === 0) return;
+  try { if (CONFIG.unaVezPorSesion && sessionStorage.getItem(KEY)) return; } catch (e) {}
+
+  var dialog = root.querySelector('.lu-bf__dialog');
+  var img = root.querySelector('.lu-bf__image');
+  img.src = CONFIG.imagen;
+  img.alt = CONFIG.imagenAlt;
+  root.querySelector('.lu-bf__title').textContent = CONFIG.titulo;
+  root.querySelector('.lu-bf__text').textContent = CONFIG.texto;
+  var btn = root.querySelector('.lu-bf__button');
+  btn.textContent = CONFIG.boton;
+  btn.href = CONFIG.enlace;
+
+  var lastFocus = null;
+
+  function otherModalOpen() {
+    return !!document.querySelector('.modal[open], .drawer[open], .popover[open]');
+  }
+
+  function open() {
+    if (otherModalOpen()) { setTimeout(open, 1500); return; }
+    lastFocus = document.activeElement;
+    root.hidden = false;
+    document.documentElement.style.overflow = 'hidden';
+    requestAnimationFrame(function () { root.classList.add('is-open'); dialog.focus(); });
+    try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
+    document.addEventListener('keydown', onKey);
+  }
+
+  function close() {
+    root.classList.remove('is-open');
+    document.documentElement.style.overflow = '';
+    document.removeEventListener('keydown', onKey);
+    setTimeout(function () { root.hidden = true; }, 300);
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+
+  function onKey(e) {
+    if (e.key === 'Escape') { close(); return; }
+    if (e.key === 'Tab') {
+      var f = root.querySelectorAll('button, a[href]');
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  }
+
+  root.addEventListener('click', function (e) {
+    if (e.target.closest('[data-lu-bf-close]')) close();
+  });
+
+  setTimeout(open, Math.max(0, CONFIG.segundos) * 1000);
+})();
+</script>
